@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "1c51f01d3211acb7597a702061249bd7"
+build_time: [1600103625, 511537000]
+inputs:
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Controller/CoreTabs/StoreViewController.swift": [1600101985, 420598080]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Resources/AppDelegate.swift": !dirty [1600103625, 101954352]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Controller/CoreTabs/OderViewController.swift": [1600102004, 545424709]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Controller/Other/Onboarding/RegisterViewController.swift": [1600103276, 473877800]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Controller/CoreTabs/NewsViewController.swift": [1600102023, 849727316]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Resources/SceneDelegate.swift": [1600101219, 10080392]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Controller/CoreTabs/AccountViewController.swift": [1600101986, 861500144]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Resources/Extensions.swift": [1600103276, 407310585]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Resources/AuthManager.swift": [1600103276, 370408778]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Resources/Storage.swift": [1600101731, 834657199]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Models/Models.swift": [1600101750, 788315784]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/TheCoffeeHouse/Controller/Other/Onboarding/LoginViewController.swift": [1600103276, 437920522]
