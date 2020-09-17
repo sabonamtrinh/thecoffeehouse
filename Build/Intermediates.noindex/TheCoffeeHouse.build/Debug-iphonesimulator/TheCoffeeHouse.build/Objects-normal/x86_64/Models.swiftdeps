@@ -1,15 +1,26 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "News"
+- "Model"
 provides-nominal:
 - "14TheCoffeeHouse4NewsV"
+- "14TheCoffeeHouse5ModelV"
 provides-member:
 - ["14TheCoffeeHouse4NewsV", ""]
+- ["14TheCoffeeHouse5ModelV", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
+- "Model"
 - "News"
 - "String"
 depends-member:
+- ["14TheCoffeeHouse5ModelV", "String"]
+- ["14TheCoffeeHouse5ModelV", "content"]
+- ["14TheCoffeeHouse5ModelV", "imageName"]
+- ["14TheCoffeeHouse5ModelV", "init"]
+- ["14TheCoffeeHouse5ModelV", "namebutton"]
+- ["14TheCoffeeHouse5ModelV", "title"]
 - ["14TheCoffeeHouse4NewsV", "String"]
 - ["14TheCoffeeHouse4NewsV", "button"]
 - ["14TheCoffeeHouse4NewsV", "content"]
@@ -17,6 +28,7 @@ depends-member:
 - ["14TheCoffeeHouse4NewsV", "init"]
 - ["14TheCoffeeHouse4NewsV", "title"]
 depends-nominal:
+- "14TheCoffeeHouse5ModelV"
 - "14TheCoffeeHouse4NewsV"
 depends-dynamic-lookup:
 depends-external:
@@ -141,4 +153,4 @@ depends-external:
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "1cce894afb8a4406484003026666b40e"
+interface-hash: "0acd6a35c6443dc4a91fd0fe9cf5113b"

@@ -1,44 +1,66 @@
 //
-//  NewsTableViewCell.swift
+//  News1TableViewCell.swift
 //  TheCoffeeHouse
 //
-//  Created by namtrinh on 9/15/20.
+//  Created by namtrinh on 9/17/20.
 //  Copyright © 2020 namtrinh. All rights reserved.
 //
 
 import UIKit
 
 class NewsTableViewCell: UITableViewCell {
-
+    
     static let identifier = "NewsTableViewCell"
     
-    private let newscollectionview: UICollectionView = {
-        let collection = UICollectionView()
-        return collection
-    }()
+    @IBOutlet weak var newsCollectionView: UICollectionView!
     
-    var  news = [News]()
+    var models = [Model]()
+    
+    static func nib()-> UINib {
+        return UINib(nibName: "NewsTableViewCell", bundle: nil)
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        newscollectionview.register(NewsCollectionViewCell.self,
-                                    forCellWithReuseIdentifier: NewsCollectionViewCell.identifier)
-        newscollectionview.delegate = self
-        newscollectionview.dataSource = self
+        newsCollectionView.backgroundColor = .systemGray5
+        newsCollectionView.showsHorizontalScrollIndicator = false
+        newsCollectionView.delegate = self
+        newsCollectionView.dataSource = self
+        newsCollectionView.register(ItemsNewsCollectionViewCell.nib(), forCellWithReuseIdentifier: ItemsNewsCollectionViewCell.indentififer)
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        // Configure the view for the selected state
     }
     
 }
 
-extension NewsTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension NewsTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return news.count
+        return 6
     }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: NewsCollectionViewCell.identifier, for: indexPath) as! NewsCollectionViewCell
-        return cell
-    }
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 250, height: 250)
+        return CGSize(width: 200, height: 300)
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 20.0
+    }
+
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ItemsNewsCollectionViewCell.indentififer,
+                                                      for: indexPath) as! ItemsNewsCollectionViewCell
+        cell.backgroundColor = .white
+        cell.layer.borderColor = UIColor.systemGray5.cgColor
+        cell.layer.cornerRadius = 8
+        cell.layer.borderWidth = 1
+        cell.isSelected = true
+        return cell
     }
 }

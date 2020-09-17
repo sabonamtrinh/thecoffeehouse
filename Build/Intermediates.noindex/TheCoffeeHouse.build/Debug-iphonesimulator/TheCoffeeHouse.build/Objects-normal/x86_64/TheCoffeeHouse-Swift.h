@@ -224,6 +224,32 @@ SWIFT_CLASS("_TtC14TheCoffeeHouse11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+
+SWIFT_CLASS("_TtC14TheCoffeeHouse23HeaderInfoTableViewCell")
+@interface HeaderInfoTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (IBAction)extendButton:(id _Nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImageView;
+@class UIButton;
+
+SWIFT_CLASS("_TtC14TheCoffeeHouse27ItemsNewsCollectionViewCell")
+@interface ItemsNewsCollectionViewCell : UICollectionViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imagenewsUIImageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified contentLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified detailButton;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC14TheCoffeeHouse19LoginViewController")
 @interface LoginViewController : UIViewController
@@ -238,35 +264,63 @@ SWIFT_CLASS("_TtC14TheCoffeeHouse19LoginViewController")
 @end
 
 
-SWIFT_CLASS("_TtC14TheCoffeeHouse22NewsCollectionViewCell")
-@interface NewsCollectionViewCell : UICollectionViewCell
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC14TheCoffeeHouse23NewsHeaderTableViewCell")
+@interface NewsHeaderTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified pointsButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified oderButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified couponButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified rewardsButton;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (IBAction)handelPointsButton:(id _Nonnull)sender;
+- (IBAction)handelOderButton:(id _Nonnull)sender;
+- (IBAction)handelCouponButton:(id _Nonnull)sender;
+- (IBAction)handelrewardsButton:(id _Nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UICollectionView;
 
 SWIFT_CLASS("_TtC14TheCoffeeHouse17NewsTableViewCell")
 @interface NewsTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified newsCollectionView;
 - (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionViewLayout;
+
+@interface NewsTableViewCell (SWIFT_EXTENSION(TheCoffeeHouse)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
 SWIFT_CLASS("_TtC14TheCoffeeHouse18NewsViewController")
 @interface NewsViewController : UIViewController
 - (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITableView;
+@class UIView;
 
 @interface NewsViewController (SWIFT_EXTENSION(TheCoffeeHouse)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
