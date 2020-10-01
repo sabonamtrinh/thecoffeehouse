@@ -19,7 +19,8 @@ class NewsHeaderTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        backgroundColor = .systemGreen
+        backgroundColor = .clear
+        Custom()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -30,9 +31,14 @@ class NewsHeaderTableViewCell: UITableViewCell {
     
     static func nib()-> UINib {
         return UINib(nibName: "NewsHeaderTableViewCell", bundle: nil)
+        
     }
     
     private func Custom(){
+        pointsButton.setImage(UIImage(named: "qr"), for: .normal)
+        oderButton.setImage(UIImage(named: "order"), for: .normal)
+        couponButton.setImage(UIImage(named: "voucher"), for: .normal)
+        rewardsButton.setImage(UIImage(named: "rewards1"), for: .normal)
         
     }
     @IBAction func handelPointsButton(_ sender: Any) {

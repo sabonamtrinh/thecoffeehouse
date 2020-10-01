@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import RealmSwift
 
 enum Height {
     static let heightRow:CGFloat = 330
     static let heightHeaderNews:CGFloat = 140
-    static let heightHeaderCell:CGFloat = 40
+    static let heightHeaderCell:CGFloat = 30
 }
 
 enum TitleName {
@@ -31,6 +32,7 @@ class NewsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(Realm.Configuration.defaultConfiguration.fileURL)
         setUp()
     }
     

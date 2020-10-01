@@ -232,6 +232,19 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "welcome2Label"]
 - ["s28CustomDebugStringConvertibleP", "white"]
 - !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "addSubview"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "backgroundColor"]
+- ["10RealmSwift26CustomObjectiveCBridgeableP", "black"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "height"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "safeAreaInsets"]
+- ["10RealmSwift26CustomObjectiveCBridgeableP", "secondaryLabel"]
+- ["10RealmSwift26CustomObjectiveCBridgeableP", "secondarySystemBackground"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "systemBackground"]
+- ["10RealmSwift26CustomObjectiveCBridgeableP", "systemBlue"]
+- ["10RealmSwift26CustomObjectiveCBridgeableP", "systemOrange"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "top"]
+- ["10RealmSwift26CustomObjectiveCBridgeableP", "white"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "width"]
 - !private ["s17CustomReflectableP", "addSubview"]
 - !private ["s17CustomReflectableP", "backgroundColor"]
 - ["s17CustomReflectableP", "black"]
@@ -907,12 +920,38 @@ depends-member:
 - !private ["Sq", "top"]
 - ["Sq", "white"]
 - !private ["Sq", "width"]
+- !private ["10RealmSwift16OptionalProtocolP", "addSubview"]
+- !private ["10RealmSwift16OptionalProtocolP", "backgroundColor"]
+- ["10RealmSwift16OptionalProtocolP", "black"]
+- !private ["10RealmSwift16OptionalProtocolP", "height"]
+- !private ["10RealmSwift16OptionalProtocolP", "safeAreaInsets"]
+- ["10RealmSwift16OptionalProtocolP", "secondaryLabel"]
+- ["10RealmSwift16OptionalProtocolP", "secondarySystemBackground"]
+- !private ["10RealmSwift16OptionalProtocolP", "systemBackground"]
+- ["10RealmSwift16OptionalProtocolP", "systemBlue"]
+- ["10RealmSwift16OptionalProtocolP", "systemOrange"]
+- !private ["10RealmSwift16OptionalProtocolP", "top"]
+- ["10RealmSwift16OptionalProtocolP", "white"]
+- !private ["10RealmSwift16OptionalProtocolP", "width"]
 - ["SY", "always"]
 - ["SY", "center"]
 - !private ["SY", "fullScreen"]
 - ["SY", "normal"]
 - !private ["SY", "touchDown"]
 - !private ["SY", "touchUpInside"]
+- !private ["10RealmSwift0A15CollectionValueP", "addSubview"]
+- !private ["10RealmSwift0A15CollectionValueP", "backgroundColor"]
+- ["10RealmSwift0A15CollectionValueP", "black"]
+- !private ["10RealmSwift0A15CollectionValueP", "height"]
+- !private ["10RealmSwift0A15CollectionValueP", "safeAreaInsets"]
+- ["10RealmSwift0A15CollectionValueP", "secondaryLabel"]
+- ["10RealmSwift0A15CollectionValueP", "secondarySystemBackground"]
+- !private ["10RealmSwift0A15CollectionValueP", "systemBackground"]
+- ["10RealmSwift0A15CollectionValueP", "systemBlue"]
+- ["10RealmSwift0A15CollectionValueP", "systemOrange"]
+- !private ["10RealmSwift0A15CollectionValueP", "top"]
+- ["10RealmSwift0A15CollectionValueP", "white"]
+- !private ["10RealmSwift0A15CollectionValueP", "width"]
 - !private ["14TheCoffeeHouse25SecondLoginViewControllerC", "deinit"]
 - !private ["14TheCoffeeHouse25SecondLoginViewControllerC", "init"]
 - !private ["14TheCoffeeHouse25SecondLoginViewControllerC", "modalPresentationStyle"]
@@ -2060,6 +2099,19 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "welcome2Label"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "width"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "addSubview"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "backgroundColor"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "black"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "height"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "safeAreaInsets"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "secondaryLabel"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "secondarySystemBackground"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "systemBackground"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "systemBlue"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "systemOrange"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "top"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "white"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "width"]
 - !private ["s21_ObjectiveCBridgeableP", "addSubview"]
 - !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
 - ["s21_ObjectiveCBridgeableP", "black"]
@@ -2109,6 +2161,7 @@ depends-nominal:
 - "14TheCoffeeHouse19LoginViewControllerC9ConstantsV"
 - "So17UIViewContentModeV"
 - "s28CustomDebugStringConvertibleP"
+- "10RealmSwift26CustomObjectiveCBridgeableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "Se"
@@ -2129,7 +2182,9 @@ depends-nominal:
 - "So14NSSecureCodingP"
 - "s9OptionSetP"
 - "Sq"
+- "10RealmSwift16OptionalProtocolP"
 - "SY"
+- "10RealmSwift0A15CollectionValueP"
 - !private "14TheCoffeeHouse25SecondLoginViewControllerC"
 - "s10SetAlgebraP"
 - "So14UIControlStateV"
@@ -2178,6 +2233,7 @@ depends-nominal:
 - "s26_ExpressibleByImageLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "10RealmSwift20_ManagedPropertyTypeP"
 - "s21_ObjectiveCBridgeableP"
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
@@ -2208,14 +2264,24 @@ depends-external:
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics-umbrella.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
@@ -2224,11 +2290,27 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/Firebase/CoreOnly/Sources/Firebase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
@@ -2241,9 +2323,20 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRExceptionModel.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
@@ -2260,8 +2353,11 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
@@ -2273,23 +2369,32 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Modules/module.modulemap"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"

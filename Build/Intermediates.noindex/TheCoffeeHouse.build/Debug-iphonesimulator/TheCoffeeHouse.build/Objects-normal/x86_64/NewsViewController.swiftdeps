@@ -33,6 +33,7 @@ depends-top-level:
 - !private "NewsHeaderTableViewCell"
 - !private "NewsTableViewCell"
 - "NewsViewController"
+- !private "Realm"
 - "String"
 - "StringLiteralType"
 - "TitleName"
@@ -43,6 +44,7 @@ depends-top-level:
 - "UIView"
 - "UIViewController"
 - "UnicodeScalarType"
+- !private "print"
 depends-member:
 - !private ["Sa", "subscript"]
 - !private ["SK", "section"]
@@ -67,6 +69,7 @@ depends-member:
 - !private ["s7CVarArgP", "Height"]
 - !private ["s7CVarArgP", "NewsHeaderTableViewCell"]
 - !private ["s7CVarArgP", "NewsTableViewCell"]
+- !private ["s7CVarArgP", "Realm"]
 - ["s7CVarArgP", "TitleName"]
 - ["s7CVarArgP", "UITableView"]
 - !private ["s7CVarArgP", "UITableViewCell"]
@@ -85,6 +88,7 @@ depends-member:
 - !private ["s7CVarArgP", "nib"]
 - ["s7CVarArgP", "numberOfSections"]
 - ["s7CVarArgP", "numberOfSectionsInTableView"]
+- !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "register"]
 - ["s7CVarArgP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s7CVarArgP", "scrollViewDidEndDecelerating"]
@@ -117,12 +121,15 @@ depends-member:
 - !private ["Sl", "section"]
 - !private ["Sl", "subscript"]
 - !private ["SL", "section"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "defaultConfiguration"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "fileURL"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "CGRect"]
 - !private ["s28CustomDebugStringConvertibleP", "HeaderInfoTableViewCell"]
 - !private ["s28CustomDebugStringConvertibleP", "Height"]
 - !private ["s28CustomDebugStringConvertibleP", "NewsHeaderTableViewCell"]
 - !private ["s28CustomDebugStringConvertibleP", "NewsTableViewCell"]
+- !private ["s28CustomDebugStringConvertibleP", "Realm"]
 - ["s28CustomDebugStringConvertibleP", "TitleName"]
 - ["s28CustomDebugStringConvertibleP", "UITableView"]
 - !private ["s28CustomDebugStringConvertibleP", "UITableViewCell"]
@@ -141,6 +148,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "nib"]
 - ["s28CustomDebugStringConvertibleP", "numberOfSections"]
 - ["s28CustomDebugStringConvertibleP", "numberOfSectionsInTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "register"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidEndDecelerating"]
@@ -171,6 +179,9 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
 - !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "addSubview"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "height"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "width"]
 - !private ["s17CustomReflectableP", "addSubview"]
 - !private ["s17CustomReflectableP", "height"]
 - !private ["s17CustomReflectableP", "init"]
@@ -182,6 +193,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "Height"]
 - !private ["s23CustomStringConvertibleP", "NewsHeaderTableViewCell"]
 - !private ["s23CustomStringConvertibleP", "NewsTableViewCell"]
+- !private ["s23CustomStringConvertibleP", "Realm"]
 - ["s23CustomStringConvertibleP", "TitleName"]
 - ["s23CustomStringConvertibleP", "UITableView"]
 - !private ["s23CustomStringConvertibleP", "UITableViewCell"]
@@ -189,8 +201,10 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "addSubview"]
 - !private ["s23CustomStringConvertibleP", "allowsSelection"]
 - !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "defaultConfiguration"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "fileURL"]
 - !private ["s23CustomStringConvertibleP", "frame"]
 - !private ["s23CustomStringConvertibleP", "height"]
 - !private ["s23CustomStringConvertibleP", "identifier"]
@@ -200,6 +214,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "nib"]
 - ["s23CustomStringConvertibleP", "numberOfSections"]
 - ["s23CustomStringConvertibleP", "numberOfSectionsInTableView"]
+- !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "register"]
 - ["s23CustomStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s23CustomStringConvertibleP", "scrollViewDidEndDecelerating"]
@@ -244,10 +259,12 @@ depends-member:
 - !private ["SE", "subscript"]
 - !private ["SE", "width"]
 - !private ["SQ", "CGRect"]
+- !private ["SQ", "Configuration"]
 - !private ["SQ", "HeaderInfoTableViewCell"]
 - !private ["SQ", "Height"]
 - !private ["SQ", "NewsHeaderTableViewCell"]
 - !private ["SQ", "NewsTableViewCell"]
+- !private ["SQ", "Realm"]
 - ["SQ", "TitleName"]
 - ["SQ", "UITableView"]
 - !private ["SQ", "UITableViewCell"]
@@ -266,6 +283,7 @@ depends-member:
 - !private ["SQ", "nib"]
 - ["SQ", "numberOfSections"]
 - ["SQ", "numberOfSectionsInTableView"]
+- !private ["SQ", "print"]
 - !private ["SQ", "register"]
 - ["SQ", "scrollViewDidChangeAdjustedContentInset"]
 - ["SQ", "scrollViewDidEndDecelerating"]
@@ -306,6 +324,7 @@ depends-member:
 - !private ["SH", "Height"]
 - !private ["SH", "NewsHeaderTableViewCell"]
 - !private ["SH", "NewsTableViewCell"]
+- !private ["SH", "Realm"]
 - ["SH", "TitleName"]
 - ["SH", "UITableView"]
 - !private ["SH", "UITableViewCell"]
@@ -324,6 +343,7 @@ depends-member:
 - !private ["SH", "nib"]
 - ["SH", "numberOfSections"]
 - ["SH", "numberOfSectionsInTableView"]
+- !private ["SH", "print"]
 - !private ["SH", "register"]
 - ["SH", "scrollViewDidChangeAdjustedContentInset"]
 - ["SH", "scrollViewDidEndDecelerating"]
@@ -370,6 +390,7 @@ depends-member:
 - !private ["So8NSCodingP", "Height"]
 - !private ["So8NSCodingP", "NewsHeaderTableViewCell"]
 - !private ["So8NSCodingP", "NewsTableViewCell"]
+- !private ["So8NSCodingP", "Realm"]
 - ["So8NSCodingP", "TitleName"]
 - ["So8NSCodingP", "UITableView"]
 - !private ["So8NSCodingP", "UITableViewCell"]
@@ -388,6 +409,7 @@ depends-member:
 - !private ["So8NSCodingP", "nib"]
 - ["So8NSCodingP", "numberOfSections"]
 - ["So8NSCodingP", "numberOfSectionsInTableView"]
+- !private ["So8NSCodingP", "print"]
 - !private ["So8NSCodingP", "register"]
 - ["So8NSCodingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So8NSCodingP", "scrollViewDidEndDecelerating"]
@@ -421,6 +443,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "Height"]
 - !private ["So26NSExtensionRequestHandlingP", "NewsHeaderTableViewCell"]
 - !private ["So26NSExtensionRequestHandlingP", "NewsTableViewCell"]
+- !private ["So26NSExtensionRequestHandlingP", "Realm"]
 - ["So26NSExtensionRequestHandlingP", "TitleName"]
 - ["So26NSExtensionRequestHandlingP", "UITableView"]
 - !private ["So26NSExtensionRequestHandlingP", "UITableViewCell"]
@@ -430,6 +453,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - ["So26NSExtensionRequestHandlingP", "numberOfSections"]
 - ["So26NSExtensionRequestHandlingP", "numberOfSectionsInTableView"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
 - ["So26NSExtensionRequestHandlingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So26NSExtensionRequestHandlingP", "scrollViewDidEndDecelerating"]
 - ["So26NSExtensionRequestHandlingP", "scrollViewDidEndDragging"]
@@ -462,6 +486,7 @@ depends-member:
 - ["So8NSObjectC", "Int"]
 - !private ["So8NSObjectC", "NewsHeaderTableViewCell"]
 - !private ["So8NSObjectC", "NewsTableViewCell"]
+- !private ["So8NSObjectC", "Realm"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "TitleName"]
 - ["So8NSObjectC", "UITableView"]
@@ -481,6 +506,7 @@ depends-member:
 - !private ["So8NSObjectC", "nib"]
 - ["So8NSObjectC", "numberOfSections"]
 - ["So8NSObjectC", "numberOfSectionsInTableView"]
+- !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "register"]
 - ["So8NSObjectC", "scrollViewDidChangeAdjustedContentInset"]
 - ["So8NSObjectC", "scrollViewDidEndDecelerating"]
@@ -514,6 +540,7 @@ depends-member:
 - !private ["So8NSObjectP", "Height"]
 - !private ["So8NSObjectP", "NewsHeaderTableViewCell"]
 - !private ["So8NSObjectP", "NewsTableViewCell"]
+- !private ["So8NSObjectP", "Realm"]
 - ["So8NSObjectP", "TitleName"]
 - ["So8NSObjectP", "UITableView"]
 - !private ["So8NSObjectP", "UITableViewCell"]
@@ -532,6 +559,7 @@ depends-member:
 - !private ["So8NSObjectP", "nib"]
 - ["So8NSObjectP", "numberOfSections"]
 - ["So8NSObjectP", "numberOfSectionsInTableView"]
+- !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "register"]
 - ["So8NSObjectP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So8NSObjectP", "scrollViewDidEndDecelerating"]
@@ -572,6 +600,7 @@ depends-member:
 - ["14TheCoffeeHouse18NewsViewControllerC", "Int"]
 - !private ["14TheCoffeeHouse18NewsViewControllerC", "NewsHeaderTableViewCell"]
 - !private ["14TheCoffeeHouse18NewsViewControllerC", "NewsTableViewCell"]
+- !private ["14TheCoffeeHouse18NewsViewControllerC", "Realm"]
 - ["14TheCoffeeHouse18NewsViewControllerC", "String"]
 - ["14TheCoffeeHouse18NewsViewControllerC", "TitleName"]
 - ["14TheCoffeeHouse18NewsViewControllerC", "UITableView"]
@@ -583,6 +612,7 @@ depends-member:
 - ["14TheCoffeeHouse18NewsViewControllerC", "init"]
 - ["14TheCoffeeHouse18NewsViewControllerC", "numberOfSections"]
 - ["14TheCoffeeHouse18NewsViewControllerC", "numberOfSectionsInTableView"]
+- !private ["14TheCoffeeHouse18NewsViewControllerC", "print"]
 - ["14TheCoffeeHouse18NewsViewControllerC", "scrollViewDidChangeAdjustedContentInset"]
 - ["14TheCoffeeHouse18NewsViewControllerC", "scrollViewDidEndDecelerating"]
 - ["14TheCoffeeHouse18NewsViewControllerC", "scrollViewDidEndDragging"]
@@ -610,9 +640,16 @@ depends-member:
 - !private ["Sq", "addSubview"]
 - !private ["Sq", "height"]
 - !private ["Sq", "width"]
+- !private ["10RealmSwift16OptionalProtocolP", "addSubview"]
+- !private ["10RealmSwift16OptionalProtocolP", "height"]
+- !private ["10RealmSwift16OptionalProtocolP", "width"]
 - !private ["Sk", "section"]
 - !private ["Sk", "subscript"]
 - !private ["Sm", "subscript"]
+- !private ["10RealmSwift0A0V", "Configuration"]
+- !private ["10RealmSwift0A15CollectionValueP", "addSubview"]
+- !private ["10RealmSwift0A15CollectionValueP", "height"]
+- !private ["10RealmSwift0A15CollectionValueP", "width"]
 - !private ["10Foundation20ReferenceConvertibleP", "section"]
 - !private ["ST", "section"]
 - !private ["ST", "subscript"]
@@ -653,6 +690,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "Height"]
 - !private ["So21UIAppearanceContainerP", "NewsHeaderTableViewCell"]
 - !private ["So21UIAppearanceContainerP", "NewsTableViewCell"]
+- !private ["So21UIAppearanceContainerP", "Realm"]
 - ["So21UIAppearanceContainerP", "TitleName"]
 - ["So21UIAppearanceContainerP", "UITableView"]
 - !private ["So21UIAppearanceContainerP", "UITableViewCell"]
@@ -671,6 +709,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "nib"]
 - ["So21UIAppearanceContainerP", "numberOfSections"]
 - ["So21UIAppearanceContainerP", "numberOfSectionsInTableView"]
+- !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "register"]
 - ["So21UIAppearanceContainerP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So21UIAppearanceContainerP", "scrollViewDidEndDecelerating"]
@@ -710,6 +749,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "Height"]
 - !private ["So18UIContentContainerP", "NewsHeaderTableViewCell"]
 - !private ["So18UIContentContainerP", "NewsTableViewCell"]
+- !private ["So18UIContentContainerP", "Realm"]
 - ["So18UIContentContainerP", "TitleName"]
 - ["So18UIContentContainerP", "UITableView"]
 - !private ["So18UIContentContainerP", "UITableViewCell"]
@@ -719,6 +759,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "init"]
 - ["So18UIContentContainerP", "numberOfSections"]
 - ["So18UIContentContainerP", "numberOfSectionsInTableView"]
+- !private ["So18UIContentContainerP", "print"]
 - ["So18UIContentContainerP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So18UIContentContainerP", "scrollViewDidEndDecelerating"]
 - ["So18UIContentContainerP", "scrollViewDidEndDragging"]
@@ -784,6 +825,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "Height"]
 - !private ["So18UIFocusEnvironmentP", "NewsHeaderTableViewCell"]
 - !private ["So18UIFocusEnvironmentP", "NewsTableViewCell"]
+- !private ["So18UIFocusEnvironmentP", "Realm"]
 - ["So18UIFocusEnvironmentP", "TitleName"]
 - ["So18UIFocusEnvironmentP", "UITableView"]
 - !private ["So18UIFocusEnvironmentP", "UITableViewCell"]
@@ -802,6 +844,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "nib"]
 - ["So18UIFocusEnvironmentP", "numberOfSections"]
 - ["So18UIFocusEnvironmentP", "numberOfSectionsInTableView"]
+- !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "register"]
 - ["So18UIFocusEnvironmentP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So18UIFocusEnvironmentP", "scrollViewDidEndDecelerating"]
@@ -889,6 +932,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "Height"]
 - !private ["So30UIPasteConfigurationSupportingP", "NewsHeaderTableViewCell"]
 - !private ["So30UIPasteConfigurationSupportingP", "NewsTableViewCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "Realm"]
 - ["So30UIPasteConfigurationSupportingP", "TitleName"]
 - ["So30UIPasteConfigurationSupportingP", "UITableView"]
 - !private ["So30UIPasteConfigurationSupportingP", "UITableViewCell"]
@@ -907,6 +951,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "nib"]
 - ["So30UIPasteConfigurationSupportingP", "numberOfSections"]
 - ["So30UIPasteConfigurationSupportingP", "numberOfSectionsInTableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "register"]
 - ["So30UIPasteConfigurationSupportingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So30UIPasteConfigurationSupportingP", "scrollViewDidEndDecelerating"]
@@ -943,6 +988,7 @@ depends-member:
 - ["So11UIResponderC", "Int"]
 - !private ["So11UIResponderC", "NewsHeaderTableViewCell"]
 - !private ["So11UIResponderC", "NewsTableViewCell"]
+- !private ["So11UIResponderC", "Realm"]
 - ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "TitleName"]
 - ["So11UIResponderC", "UITableView"]
@@ -962,6 +1008,7 @@ depends-member:
 - !private ["So11UIResponderC", "nib"]
 - ["So11UIResponderC", "numberOfSections"]
 - ["So11UIResponderC", "numberOfSectionsInTableView"]
+- !private ["So11UIResponderC", "print"]
 - !private ["So11UIResponderC", "register"]
 - ["So11UIResponderC", "scrollViewDidChangeAdjustedContentInset"]
 - ["So11UIResponderC", "scrollViewDidEndDecelerating"]
@@ -995,6 +1042,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "Height"]
 - !private ["So30UIResponderStandardEditActionsP", "NewsHeaderTableViewCell"]
 - !private ["So30UIResponderStandardEditActionsP", "NewsTableViewCell"]
+- !private ["So30UIResponderStandardEditActionsP", "Realm"]
 - ["So30UIResponderStandardEditActionsP", "TitleName"]
 - ["So30UIResponderStandardEditActionsP", "UITableView"]
 - !private ["So30UIResponderStandardEditActionsP", "UITableViewCell"]
@@ -1013,6 +1061,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "nib"]
 - ["So30UIResponderStandardEditActionsP", "numberOfSections"]
 - ["So30UIResponderStandardEditActionsP", "numberOfSectionsInTableView"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "register"]
 - ["So30UIResponderStandardEditActionsP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So30UIResponderStandardEditActionsP", "scrollViewDidEndDecelerating"]
@@ -1054,6 +1103,7 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "Height"]
 - !private ["So20UIScrollViewDelegateP", "NewsHeaderTableViewCell"]
 - !private ["So20UIScrollViewDelegateP", "NewsTableViewCell"]
+- !private ["So20UIScrollViewDelegateP", "Realm"]
 - ["So20UIScrollViewDelegateP", "TitleName"]
 - ["So20UIScrollViewDelegateP", "UITableView"]
 - !private ["So20UIScrollViewDelegateP", "UITableViewCell"]
@@ -1064,6 +1114,7 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "nib"]
 - ["So20UIScrollViewDelegateP", "numberOfSections"]
 - ["So20UIScrollViewDelegateP", "numberOfSectionsInTableView"]
+- !private ["So20UIScrollViewDelegateP", "print"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidEndDecelerating"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidEndDragging"]
@@ -1099,6 +1150,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "Height"]
 - !private ["So16UIStateRestoringP", "NewsHeaderTableViewCell"]
 - !private ["So16UIStateRestoringP", "NewsTableViewCell"]
+- !private ["So16UIStateRestoringP", "Realm"]
 - ["So16UIStateRestoringP", "TitleName"]
 - ["So16UIStateRestoringP", "UITableView"]
 - !private ["So16UIStateRestoringP", "UITableViewCell"]
@@ -1108,6 +1160,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "init"]
 - ["So16UIStateRestoringP", "numberOfSections"]
 - ["So16UIStateRestoringP", "numberOfSectionsInTableView"]
+- !private ["So16UIStateRestoringP", "print"]
 - ["So16UIStateRestoringP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So16UIStateRestoringP", "scrollViewDidEndDecelerating"]
 - ["So16UIStateRestoringP", "scrollViewDidEndDragging"]
@@ -1149,6 +1202,7 @@ depends-member:
 - !private ["So21UITableViewDataSourceP", "Height"]
 - !private ["So21UITableViewDataSourceP", "NewsHeaderTableViewCell"]
 - !private ["So21UITableViewDataSourceP", "NewsTableViewCell"]
+- !private ["So21UITableViewDataSourceP", "Realm"]
 - ["So21UITableViewDataSourceP", "TitleName"]
 - ["So21UITableViewDataSourceP", "UITableView"]
 - !private ["So21UITableViewDataSourceP", "UITableViewCell"]
@@ -1157,6 +1211,7 @@ depends-member:
 - ["So21UITableViewDataSourceP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So21UITableViewDataSourceP", "numberOfSections"]
 - ["So21UITableViewDataSourceP", "numberOfSectionsInTableView"]
+- !private ["So21UITableViewDataSourceP", "print"]
 - ["So21UITableViewDataSourceP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So21UITableViewDataSourceP", "scrollViewDidEndDecelerating"]
 - ["So21UITableViewDataSourceP", "scrollViewDidEndDragging"]
@@ -1184,6 +1239,7 @@ depends-member:
 - !private ["So19UITableViewDelegateP", "Height"]
 - !private ["So19UITableViewDelegateP", "NewsHeaderTableViewCell"]
 - !private ["So19UITableViewDelegateP", "NewsTableViewCell"]
+- !private ["So19UITableViewDelegateP", "Realm"]
 - ["So19UITableViewDelegateP", "TitleName"]
 - ["So19UITableViewDelegateP", "UITableView"]
 - !private ["So19UITableViewDelegateP", "UITableViewCell"]
@@ -1192,6 +1248,7 @@ depends-member:
 - ["So19UITableViewDelegateP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So19UITableViewDelegateP", "numberOfSections"]
 - ["So19UITableViewDelegateP", "numberOfSectionsInTableView"]
+- !private ["So19UITableViewDelegateP", "print"]
 - ["So19UITableViewDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So19UITableViewDelegateP", "scrollViewDidEndDecelerating"]
 - ["So19UITableViewDelegateP", "scrollViewDidEndDragging"]
@@ -1219,6 +1276,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "Height"]
 - !private ["So18UITraitEnvironmentP", "NewsHeaderTableViewCell"]
 - !private ["So18UITraitEnvironmentP", "NewsTableViewCell"]
+- !private ["So18UITraitEnvironmentP", "Realm"]
 - ["So18UITraitEnvironmentP", "TitleName"]
 - ["So18UITraitEnvironmentP", "UITableView"]
 - !private ["So18UITraitEnvironmentP", "UITableViewCell"]
@@ -1237,6 +1295,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "nib"]
 - ["So18UITraitEnvironmentP", "numberOfSections"]
 - ["So18UITraitEnvironmentP", "numberOfSectionsInTableView"]
+- !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "register"]
 - ["So18UITraitEnvironmentP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So18UITraitEnvironmentP", "scrollViewDidEndDecelerating"]
@@ -1270,6 +1329,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "Height"]
 - !private ["So23UIUserActivityRestoringP", "NewsHeaderTableViewCell"]
 - !private ["So23UIUserActivityRestoringP", "NewsTableViewCell"]
+- !private ["So23UIUserActivityRestoringP", "Realm"]
 - ["So23UIUserActivityRestoringP", "TitleName"]
 - ["So23UIUserActivityRestoringP", "UITableView"]
 - !private ["So23UIUserActivityRestoringP", "UITableViewCell"]
@@ -1288,6 +1348,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "nib"]
 - ["So23UIUserActivityRestoringP", "numberOfSections"]
 - ["So23UIUserActivityRestoringP", "numberOfSectionsInTableView"]
+- !private ["So23UIUserActivityRestoringP", "print"]
 - !private ["So23UIUserActivityRestoringP", "register"]
 - ["So23UIUserActivityRestoringP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So23UIUserActivityRestoringP", "scrollViewDidEndDecelerating"]
@@ -1338,6 +1399,7 @@ depends-member:
 - ["So16UIViewControllerC", "Int"]
 - !private ["So16UIViewControllerC", "NewsHeaderTableViewCell"]
 - !private ["So16UIViewControllerC", "NewsTableViewCell"]
+- !private ["So16UIViewControllerC", "Realm"]
 - ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "TitleName"]
 - ["So16UIViewControllerC", "UITableView"]
@@ -1349,6 +1411,7 @@ depends-member:
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "numberOfSections"]
 - ["So16UIViewControllerC", "numberOfSectionsInTableView"]
+- !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "scrollViewDidChangeAdjustedContentInset"]
 - ["So16UIViewControllerC", "scrollViewDidEndDecelerating"]
 - ["So16UIViewControllerC", "scrollViewDidEndDragging"]
@@ -1383,6 +1446,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Height"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NewsHeaderTableViewCell"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NewsTableViewCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "TitleName"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UITableView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UITableViewCell"]
@@ -1401,6 +1465,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "nib"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSections"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSectionsInTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndDecelerating"]
@@ -1434,6 +1499,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Height"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NewsHeaderTableViewCell"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NewsTableViewCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Realm"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TitleName"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITableView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITableViewCell"]
@@ -1452,6 +1518,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "nib"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfSections"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfSectionsInTableView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidEndDecelerating"]
@@ -1480,6 +1547,9 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZooming"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZoomingInScrollView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "width"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "addSubview"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "height"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "width"]
 - !private ["s21_ObjectiveCBridgeableP", "addSubview"]
 - !private ["s21_ObjectiveCBridgeableP", "height"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
@@ -1508,8 +1578,10 @@ depends-nominal:
 - "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
+- !private "10RealmSwift0A0V13ConfigurationV"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "10Foundation12DataProtocolP"
@@ -1532,8 +1604,11 @@ depends-nominal:
 - !private "14TheCoffeeHouse17NewsTableViewCellC"
 - "14TheCoffeeHouse18NewsViewControllerC"
 - !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
 - !private "Sk"
 - !private "Sm"
+- !private "10RealmSwift0A0V"
+- !private "10RealmSwift0A15CollectionValueP"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "ST"
 - "14TheCoffeeHouse9TitleNameO"
@@ -1575,6 +1650,7 @@ depends-nominal:
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "10RealmSwift20_ManagedPropertyTypeP"
 - !private "s21_ObjectiveCBridgeableP"
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
@@ -1605,14 +1681,24 @@ depends-external:
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics-umbrella.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
@@ -1621,11 +1707,27 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/Firebase/CoreOnly/Sources/Firebase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
@@ -1638,9 +1740,20 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRExceptionModel.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
@@ -1657,8 +1770,11 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
@@ -1670,23 +1786,32 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Modules/module.modulemap"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -1700,4 +1825,4 @@ depends-external:
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "1e595dd0f064b7efd993bea19b659134"
+interface-hash: "276ebe49d8e71542d8b5b6f549544fc1"

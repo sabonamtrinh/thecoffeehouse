@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RealmSwift
 
 struct News{
     let image: String
@@ -25,5 +26,27 @@ struct Model {
         self.title = title
         self.content = content
         self.namebutton = namebutton
+    }
+}
+
+struct AccountViewType {
+    let nameimage: String
+    let text: String
+}
+
+struct Product {
+    let imageName: String
+    let name: String
+    let price: String
+}
+
+class ProDucts : Object {
+    @objc dynamic var id:Int = 0
+    @objc dynamic var imageName: String = ""
+    @objc dynamic var name: String = ""
+    @objc dynamic var price: String = ""
+    
+    override static func primaryKey() -> String? {
+        return "id"
     }
 }

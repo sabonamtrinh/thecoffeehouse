@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7F3022D5236896BD71E8F03A /* Pods_TheCoffeeHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69221754576C9652B9F69D9 /* Pods_TheCoffeeHouse.framework */; };
+		CE1926A325186BDE00E18437 /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1926A125186BDE00E18437 /* ProductsCollectionViewCell.swift */; };
+		CE1926A425186BDE00E18437 /* ProductsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1926A225186BDE00E18437 /* ProductsCollectionViewCell.xib */; };
 		CE1B8B2C250FD2E300239BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B8B2B250FD2E300239BA8 /* AppDelegate.swift */; };
 		CE1B8B2E250FD2E300239BA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B8B2D250FD2E300239BA8 /* SceneDelegate.swift */; };
 		CE1B8B33250FD2E300239BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1B8B31250FD2E300239BA8 /* Main.storyboard */; };
@@ -28,7 +30,11 @@
 		CE3559E32513C85200F5B81D /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3559E12513C85200F5B81D /* NewsTableViewCell.xib */; };
 		CE3559E62513E4F300F5B81D /* NewsHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3559E42513E4F200F5B81D /* NewsHeaderTableViewCell.swift */; };
 		CE3559E72513E4F300F5B81D /* NewsHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3559E52513E4F300F5B81D /* NewsHeaderTableViewCell.xib */; };
+		CE3559EA25148A6700F5B81D /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3559E825148A6700F5B81D /* AccountTableViewCell.swift */; };
+		CE3559EB25148A6700F5B81D /* AccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3559E925148A6700F5B81D /* AccountTableViewCell.xib */; };
+		CE78DBD32525B9770010AE97 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78DBD22525B9770010AE97 /* DBManager.swift */; };
 		CE8DD7022510EDCF0071B66F /* SecondLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DD7012510EDCF0071B66F /* SecondLoginViewController.swift */; };
+		CEDBE7EF25198E670018F8B1 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBE7EE25198E670018F8B1 /* MenuBar.swift */; };
 		CEE8646125135271003A5B8E /* ItemsNewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8645F25135271003A5B8E /* ItemsNewsCollectionViewCell.swift */; };
 		CEE8646225135271003A5B8E /* ItemsNewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8646025135271003A5B8E /* ItemsNewsCollectionViewCell.xib */; };
 		CEE864702513868D003A5B8E /* HeaderInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8646E2513868D003A5B8E /* HeaderInfoTableViewCell.swift */; };
@@ -38,6 +44,8 @@
 /* Begin PBXFileReference section */
 		699BE6662A6BFB9DE928C02B /* Pods-TheCoffeeHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCoffeeHouse.debug.xcconfig"; path = "Target Support Files/Pods-TheCoffeeHouse/Pods-TheCoffeeHouse.debug.xcconfig"; sourceTree = "<group>"; };
 		6F6AD15C090CA089D1DE53B1 /* Pods-TheCoffeeHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCoffeeHouse.release.xcconfig"; path = "Target Support Files/Pods-TheCoffeeHouse/Pods-TheCoffeeHouse.release.xcconfig"; sourceTree = "<group>"; };
+		CE1926A125186BDE00E18437 /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE1926A225186BDE00E18437 /* ProductsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCollectionViewCell.xib; sourceTree = "<group>"; };
 		CE1B8B28250FD2E200239BA8 /* TheCoffeeHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCoffeeHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1B8B2B250FD2E300239BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1B8B2D250FD2E300239BA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +68,11 @@
 		CE3559E12513C85200F5B81D /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		CE3559E42513E4F200F5B81D /* NewsHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		CE3559E52513E4F300F5B81D /* NewsHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		CE3559E825148A6700F5B81D /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		CE3559E925148A6700F5B81D /* AccountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountTableViewCell.xib; sourceTree = "<group>"; };
+		CE78DBD22525B9770010AE97 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		CE8DD7012510EDCF0071B66F /* SecondLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLoginViewController.swift; sourceTree = "<group>"; };
+		CEDBE7EE25198E670018F8B1 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		CEE8645F25135271003A5B8E /* ItemsNewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsNewsCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEE8646025135271003A5B8E /* ItemsNewsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsNewsCollectionViewCell.xib; sourceTree = "<group>"; };
 		CEE8646E2513868D003A5B8E /* HeaderInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderInfoTableViewCell.swift; sourceTree = "<group>"; };
@@ -127,6 +139,7 @@
 				CE1B8B45250FD4C700239BA8 /* Extensions.swift */,
 				CE1B8B47250FD4D400239BA8 /* AuthManager.swift */,
 				CE1B8B49250FD4E400239BA8 /* Storage.swift */,
+				CE78DBD22525B9770010AE97 /* DBManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -134,8 +147,8 @@
 		CE1B8B40250FD33700239BA8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CE1B8B4D250FD50C00239BA8 /* CollectionViewHeaders */,
 				CE1B8B34250FD2E500239BA8 /* Assets.xcassets */,
+				CE1B8B4D250FD50C00239BA8 /* CollectionViewHeaders */,
 				CE1B8B44250FD39B00239BA8 /* Cell */,
 				CE1B8B43250FD36C00239BA8 /* Storybroads */,
 			);
@@ -171,10 +184,9 @@
 		CE1B8B44250FD39B00239BA8 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				CEE8645F25135271003A5B8E /* ItemsNewsCollectionViewCell.swift */,
-				CEE8646025135271003A5B8E /* ItemsNewsCollectionViewCell.xib */,
-				CE3559E02513C85200F5B81D /* NewsTableViewCell.swift */,
-				CE3559E12513C85200F5B81D /* NewsTableViewCell.xib */,
+				CEDBE7ED251983060018F8B1 /* Account */,
+				CEDBE7EC251982E40018F8B1 /* News */,
+				CEDBE7EB251982D50018F8B1 /* Oder */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -233,6 +245,36 @@
 				6F6AD15C090CA089D1DE53B1 /* Pods-TheCoffeeHouse.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEDBE7EB251982D50018F8B1 /* Oder */ = {
+			isa = PBXGroup;
+			children = (
+				CE1926A125186BDE00E18437 /* ProductsCollectionViewCell.swift */,
+				CE1926A225186BDE00E18437 /* ProductsCollectionViewCell.xib */,
+				CEDBE7EE25198E670018F8B1 /* MenuBar.swift */,
+			);
+			path = Oder;
+			sourceTree = "<group>";
+		};
+		CEDBE7EC251982E40018F8B1 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				CE3559E02513C85200F5B81D /* NewsTableViewCell.swift */,
+				CE3559E12513C85200F5B81D /* NewsTableViewCell.xib */,
+				CEE8645F25135271003A5B8E /* ItemsNewsCollectionViewCell.swift */,
+				CEE8646025135271003A5B8E /* ItemsNewsCollectionViewCell.xib */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		CEDBE7ED251983060018F8B1 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				CE3559E825148A6700F5B81D /* AccountTableViewCell.swift */,
+				CE3559E925148A6700F5B81D /* AccountTableViewCell.xib */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 		CEE8646325135A9A003A5B8E /* HeaderCell */ = {
@@ -305,6 +347,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE8646225135271003A5B8E /* ItemsNewsCollectionViewCell.xib in Resources */,
+				CE3559EB25148A6700F5B81D /* AccountTableViewCell.xib in Resources */,
+				CE1926A425186BDE00E18437 /* ProductsCollectionViewCell.xib in Resources */,
 				CEE864712513868D003A5B8E /* HeaderInfoTableViewCell.xib in Resources */,
 				CE1B8B38250FD2E500239BA8 /* LaunchScreen.storyboard in Resources */,
 				CE1B8B35250FD2E500239BA8 /* Assets.xcassets in Resources */,
@@ -365,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE864702513868D003A5B8E /* HeaderInfoTableViewCell.swift in Sources */,
+				CE1926A325186BDE00E18437 /* ProductsCollectionViewCell.swift in Sources */,
 				CE8DD7022510EDCF0071B66F /* SecondLoginViewController.swift in Sources */,
 				CE1B8B53250FD5E200239BA8 /* StoreViewController.swift in Sources */,
 				CE1B8B2C250FD2E300239BA8 /* AppDelegate.swift in Sources */,
@@ -376,9 +421,12 @@
 				CE1B8B2E250FD2E300239BA8 /* SceneDelegate.swift in Sources */,
 				CE1B8B51250FD5CF00239BA8 /* AccountViewController.swift in Sources */,
 				CE1B8B46250FD4C700239BA8 /* Extensions.swift in Sources */,
+				CE78DBD32525B9770010AE97 /* DBManager.swift in Sources */,
 				CE3559E62513E4F300F5B81D /* NewsHeaderTableViewCell.swift in Sources */,
+				CEDBE7EF25198E670018F8B1 /* MenuBar.swift in Sources */,
 				CE1B8B48250FD4D400239BA8 /* AuthManager.swift in Sources */,
 				CE1B8B4A250FD4E400239BA8 /* Storage.swift in Sources */,
+				CE3559EA25148A6700F5B81D /* AccountTableViewCell.swift in Sources */,
 				CE1B8B4C250FD4F700239BA8 /* Models.swift in Sources */,
 				CE1B8B5B250FD6C600239BA8 /* LoginViewController.swift in Sources */,
 			);
