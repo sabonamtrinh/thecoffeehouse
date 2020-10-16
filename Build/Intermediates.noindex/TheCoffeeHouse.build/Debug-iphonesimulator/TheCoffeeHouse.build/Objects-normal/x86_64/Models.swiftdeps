@@ -5,37 +5,59 @@ provides-top-level:
 - "AccountViewType"
 - "Product"
 - "ProDucts"
+- "Drinks"
+- "Foods"
+- "NewsRealm"
+- "UpdateFormHome"
+- "CoffeLove"
 provides-nominal:
 - "14TheCoffeeHouse4NewsV"
 - "14TheCoffeeHouse5ModelV"
 - "14TheCoffeeHouse15AccountViewTypeV"
 - "14TheCoffeeHouse7ProductV"
 - "14TheCoffeeHouse8ProDuctsC"
+- "14TheCoffeeHouse6DrinksC"
+- "14TheCoffeeHouse5FoodsC"
+- "14TheCoffeeHouse9NewsRealmC"
+- "14TheCoffeeHouse14UpdateFormHomeC"
+- "14TheCoffeeHouse9CoffeLoveC"
 provides-member:
 - ["14TheCoffeeHouse4NewsV", ""]
 - ["14TheCoffeeHouse5ModelV", ""]
 - ["14TheCoffeeHouse15AccountViewTypeV", ""]
 - ["14TheCoffeeHouse7ProductV", ""]
 - ["14TheCoffeeHouse8ProDuctsC", ""]
+- ["14TheCoffeeHouse6DrinksC", ""]
+- ["14TheCoffeeHouse5FoodsC", ""]
+- ["14TheCoffeeHouse9NewsRealmC", ""]
+- ["14TheCoffeeHouse14UpdateFormHomeC", ""]
+- ["14TheCoffeeHouse9CoffeLoveC", ""]
 provides-dynamic-lookup:
+- "content"
 - "id"
 - "imageName"
 - "name"
 - "price"
 - "primaryKey"
+- "title"
 depends-top-level:
 - "AccountViewType"
 - "AssignmentPrecedence"
+- "CoffeLove"
+- "Drinks"
 - "FloatLiteralType"
+- "Foods"
 - "Int"
 - "IntegerLiteralType"
 - "Model"
 - "News"
+- "NewsRealm"
 - "Object"
 - "ProDucts"
 - "Product"
 - "String"
 - "StringLiteralType"
+- "UpdateFormHome"
 depends-member:
 - ["14TheCoffeeHouse15AccountViewTypeV", "String"]
 - ["14TheCoffeeHouse15AccountViewTypeV", "init"]
@@ -45,12 +67,39 @@ depends-member:
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "init"]
+- ["14TheCoffeeHouse9CoffeLoveC", "Int"]
+- ["14TheCoffeeHouse9CoffeLoveC", "String"]
+- ["14TheCoffeeHouse9CoffeLoveC", "content"]
+- ["14TheCoffeeHouse9CoffeLoveC", "deinit"]
+- ["14TheCoffeeHouse9CoffeLoveC", "id"]
+- ["14TheCoffeeHouse9CoffeLoveC", "imageName"]
+- ["14TheCoffeeHouse9CoffeLoveC", "init"]
+- ["14TheCoffeeHouse9CoffeLoveC", "primaryKey"]
+- ["14TheCoffeeHouse9CoffeLoveC", "title"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "init"]
+- ["14TheCoffeeHouse6DrinksC", "Int"]
+- ["14TheCoffeeHouse6DrinksC", "String"]
+- ["14TheCoffeeHouse6DrinksC", "deinit"]
+- ["14TheCoffeeHouse6DrinksC", "id"]
+- ["14TheCoffeeHouse6DrinksC", "imageName"]
+- ["14TheCoffeeHouse6DrinksC", "init"]
+- ["14TheCoffeeHouse6DrinksC", "name"]
+- ["14TheCoffeeHouse6DrinksC", "price"]
+- ["14TheCoffeeHouse6DrinksC", "primaryKey"]
 - ["SQ", ""]
 - !private ["SQ", "init"]
+- ["14TheCoffeeHouse5FoodsC", "Int"]
+- ["14TheCoffeeHouse5FoodsC", "String"]
+- ["14TheCoffeeHouse5FoodsC", "deinit"]
+- ["14TheCoffeeHouse5FoodsC", "id"]
+- ["14TheCoffeeHouse5FoodsC", "imageName"]
+- ["14TheCoffeeHouse5FoodsC", "init"]
+- ["14TheCoffeeHouse5FoodsC", "name"]
+- ["14TheCoffeeHouse5FoodsC", "price"]
+- ["14TheCoffeeHouse5FoodsC", "primaryKey"]
 - ["SH", ""]
 - !private ["SH", "init"]
 - ["14TheCoffeeHouse5ModelV", "String"]
@@ -61,12 +110,14 @@ depends-member:
 - ["14TheCoffeeHouse5ModelV", "title"]
 - ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "content"]
 - ["So8NSObjectC", "id"]
 - ["So8NSObjectC", "imageName"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "name"]
 - ["So8NSObjectC", "price"]
 - ["So8NSObjectC", "primaryKey"]
+- ["So8NSObjectC", "title"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "init"]
 - ["14TheCoffeeHouse4NewsV", "String"]
@@ -75,15 +126,26 @@ depends-member:
 - ["14TheCoffeeHouse4NewsV", "image"]
 - ["14TheCoffeeHouse4NewsV", "init"]
 - ["14TheCoffeeHouse4NewsV", "title"]
+- ["14TheCoffeeHouse9NewsRealmC", "Int"]
+- ["14TheCoffeeHouse9NewsRealmC", "String"]
+- ["14TheCoffeeHouse9NewsRealmC", "content"]
+- ["14TheCoffeeHouse9NewsRealmC", "deinit"]
+- ["14TheCoffeeHouse9NewsRealmC", "id"]
+- ["14TheCoffeeHouse9NewsRealmC", "imageName"]
+- ["14TheCoffeeHouse9NewsRealmC", "init"]
+- ["14TheCoffeeHouse9NewsRealmC", "primaryKey"]
+- ["14TheCoffeeHouse9NewsRealmC", "title"]
 - ["10RealmSwift6ObjectC", "Int"]
 - ["10RealmSwift6ObjectC", "String"]
 - ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "content"]
 - ["10RealmSwift6ObjectC", "id"]
 - ["10RealmSwift6ObjectC", "imageName"]
 - ["10RealmSwift6ObjectC", "init"]
 - ["10RealmSwift6ObjectC", "name"]
 - ["10RealmSwift6ObjectC", "price"]
 - ["10RealmSwift6ObjectC", "primaryKey"]
+- ["10RealmSwift6ObjectC", "title"]
 - ["14TheCoffeeHouse8ProDuctsC", "Int"]
 - ["14TheCoffeeHouse8ProDuctsC", "String"]
 - ["14TheCoffeeHouse8ProDuctsC", "deinit"]
@@ -100,16 +162,27 @@ depends-member:
 - ["14TheCoffeeHouse7ProductV", "price"]
 - ["So13RLMObjectBaseC", "Int"]
 - ["So13RLMObjectBaseC", "String"]
+- ["So13RLMObjectBaseC", "content"]
 - ["So13RLMObjectBaseC", "id"]
 - ["So13RLMObjectBaseC", "imageName"]
 - ["So13RLMObjectBaseC", "init"]
 - ["So13RLMObjectBaseC", "name"]
 - ["So13RLMObjectBaseC", "price"]
 - ["So13RLMObjectBaseC", "primaryKey"]
+- ["So13RLMObjectBaseC", "title"]
 - ["10RealmSwift0A15CollectionValueP", ""]
 - !private ["10RealmSwift0A15CollectionValueP", "init"]
 - ["10RealmSwift14ThreadConfinedP", ""]
 - !private ["10RealmSwift14ThreadConfinedP", "init"]
+- ["14TheCoffeeHouse14UpdateFormHomeC", "Int"]
+- ["14TheCoffeeHouse14UpdateFormHomeC", "String"]
+- ["14TheCoffeeHouse14UpdateFormHomeC", "content"]
+- ["14TheCoffeeHouse14UpdateFormHomeC", "deinit"]
+- ["14TheCoffeeHouse14UpdateFormHomeC", "id"]
+- ["14TheCoffeeHouse14UpdateFormHomeC", "imageName"]
+- ["14TheCoffeeHouse14UpdateFormHomeC", "init"]
+- ["14TheCoffeeHouse14UpdateFormHomeC", "primaryKey"]
+- ["14TheCoffeeHouse14UpdateFormHomeC", "title"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
@@ -120,20 +193,25 @@ depends-nominal:
 - "14TheCoffeeHouse15AccountViewTypeV"
 - "10RealmSwift28AssistedObjectiveCBridgeableP"
 - "s7CVarArgP"
+- "14TheCoffeeHouse9CoffeLoveC"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
+- "14TheCoffeeHouse6DrinksC"
 - "SQ"
+- "14TheCoffeeHouse5FoodsC"
 - "SH"
 - "14TheCoffeeHouse5ModelV"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - "14TheCoffeeHouse4NewsV"
+- "14TheCoffeeHouse9NewsRealmC"
 - "10RealmSwift6ObjectC"
 - "14TheCoffeeHouse8ProDuctsC"
 - "14TheCoffeeHouse7ProductV"
 - "So13RLMObjectBaseC"
 - "10RealmSwift0A15CollectionValueP"
 - "10RealmSwift14ThreadConfinedP"
+- "14TheCoffeeHouse14UpdateFormHomeC"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - "10RealmSwift20_ManagedPropertyTypeP"
@@ -165,10 +243,14 @@ depends-external:
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/SwiftyGif/SwiftyGif.framework/Modules/SwiftyGif.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKURL.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/SwiftyGif/SwiftyGif.framework/Headers/SwiftyGif-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FirebaseCrashlytics-umbrella.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
@@ -185,20 +267,24 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKReferralCode.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKProfile.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers/FIRStackFrame.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKDeviceViewControllerBase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/Firebase/CoreOnly/Sources/Firebase.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKApplicationDelegate.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
@@ -213,8 +299,14 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/SwiftyGif/SwiftyGif.framework/Headers/SwiftyGif.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAppLinkResolving.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKCopying.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKMutableCopying.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAppLink.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
@@ -228,18 +320,27 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAccessToken.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAppLinkNavigation.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKGraphRequestConnection.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKButton.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKDeviceButton.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKLoginButton.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKDeviceLoginCodeInfo.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
@@ -255,10 +356,18 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKReferralManager.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKLoginManager.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKDeviceLoginManager.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKTestUsersManager.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAppLinkReturnToRefererController.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAppLinkResolver.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKWebViewAppLinkResolver.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKGraphErrorRecoveryProcessor.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
@@ -268,34 +377,60 @@ depends-external:
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKSettings.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKConstants.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKLoginConstants.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAppEvents.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAppLinkTarget.h"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/SwiftyGif/SwiftyGif.framework/Headers/SwiftyGif-Swift.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKCoreKit.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKLoginKit.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKLoginManagerLoginResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKReferralManagerResult.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKDeviceLoginManagerResult.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageListResult.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKGraphRequestDataAttachment.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKMeasurementEvent.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKCoreKitImport.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKGraphRequest.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKProfilePictureView.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKTooltipView.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/include/FBSDKLoginTooltipView.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAppLinkReturnToRefererView.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKUtility.h"
+- "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAppLinkUtility.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/SwiftyGif/SwiftyGif.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/FirebaseCrashlytics/FirebaseCrashlytics.framework/Modules/module.modulemap"
 - "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Intermediates.noindex/GeneratedModuleMaps/iphonesimulator/FBSDKCoreKit_Basics.modulemap"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Intermediates.noindex/GeneratedModuleMaps/iphonesimulator/FBSDKShareKit.modulemap"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Intermediates.noindex/GeneratedModuleMaps/iphonesimulator/FBSDKCoreKit.modulemap"
+- "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Intermediates.noindex/GeneratedModuleMaps/iphonesimulator/FBSDKLoginKit.modulemap"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -307,6 +442,7 @@ depends-external:
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "95853970f89e3317b550cef02a976268"
+interface-hash: "e951f620695e30dbf8f6af47d4720b98"

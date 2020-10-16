@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="142" id="KGk-i7-Jjw" customClass="MusicTableViewCell" customModule="TheCoffeeHouse" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="699" height="142"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="699" height="142"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chẳng Biết Điều Gì" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0Y-56-KRv">
+                        <rect key="frame" x="145" y="25" width="200" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="NVq-sY-etL"/>
+                            <constraint firstAttribute="width" constant="200" id="X8q-QQ-Znx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emcee L(Da LAB)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHH-eD-EHt">
+                        <rect key="frame" x="145" y="55" width="200" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="XFV-6H-gVc"/>
+                            <constraint firstAttribute="width" constant="200" id="wR4-AT-5jX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aIB-Gg-QSv">
+                        <rect key="frame" x="145" y="85" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="jK1-Zd-DXS"/>
+                            <constraint firstAttribute="width" constant="30" id="zAY-NK-bGK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now playing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtl-Eb-13f">
+                        <rect key="frame" x="185" y="85" width="100" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="R2G-TL-78D"/>
+                            <constraint firstAttribute="height" constant="20" id="mho-R6-SPD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HSz-3R-U9U">
+                        <rect key="frame" x="33" y="15" width="90" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="J8d-gV-cAs"/>
+                            <constraint firstAttribute="width" constant="90" id="fLI-NA-DjM"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="R0Y-56-KRv" firstAttribute="leading" secondItem="HSz-3R-U9U" secondAttribute="trailing" constant="15" id="3EQ-bJ-oX1"/>
+                    <constraint firstItem="pHH-eD-EHt" firstAttribute="leading" secondItem="HSz-3R-U9U" secondAttribute="trailing" constant="15" id="D3S-Ps-ZXz"/>
+                    <constraint firstItem="pHH-eD-EHt" firstAttribute="top" secondItem="R0Y-56-KRv" secondAttribute="bottom" constant="10" id="M3W-wp-fx3"/>
+                    <constraint firstItem="aIB-Gg-QSv" firstAttribute="top" secondItem="pHH-eD-EHt" secondAttribute="bottom" constant="10" id="NcX-jr-5YY"/>
+                    <constraint firstItem="HSz-3R-U9U" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="PaI-b8-vNG"/>
+                    <constraint firstItem="aIB-Gg-QSv" firstAttribute="leading" secondItem="HSz-3R-U9U" secondAttribute="trailing" constant="15" id="Ujd-MV-1aE"/>
+                    <constraint firstItem="gtl-Eb-13f" firstAttribute="leading" secondItem="aIB-Gg-QSv" secondAttribute="trailing" constant="10" id="Wdl-dS-pH9"/>
+                    <constraint firstItem="HSz-3R-U9U" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="20" id="Xzc-4l-MxK"/>
+                    <constraint firstItem="gtl-Eb-13f" firstAttribute="top" secondItem="pHH-eD-EHt" secondAttribute="bottom" constant="10" id="aNb-lL-OGs"/>
+                    <constraint firstItem="R0Y-56-KRv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="nfz-eN-08n"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="animationMusicImage" destination="aIB-Gg-QSv" id="rax-O3-N1X"/>
+                <outlet property="musicImageView" destination="HSz-3R-U9U" id="y19-nI-jEt"/>
+                <outlet property="nameSongLbl" destination="R0Y-56-KRv" id="TmO-VX-reW"/>
+                <outlet property="singerLbl" destination="pHH-eD-EHt" id="bTz-9D-tpk"/>
+            </connections>
+            <point key="canvasLocation" x="-157.24637681159422" y="-45.535714285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

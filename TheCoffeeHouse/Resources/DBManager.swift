@@ -34,4 +34,29 @@ class DBManager {
             database.add(object)
         }
     }
+    
+    func getNewsFormDB() -> Results<NewsRealm> {
+        let result: Results<NewsRealm> = database.objects(NewsRealm.self)
+        return result
+    }
+    
+    func getUpdateFormHome() -> Results<UpdateFormHome> {
+        let result: Results<UpdateFormHome> = database.objects(UpdateFormHome.self)
+        return result
+    }
+    
+    func getCoffeeLove() -> Results<CoffeLove> {
+        let result: Results<CoffeLove> = database.objects(CoffeLove.self)
+        return result
+    }
+    
+    func getDrinks() -> Results<Drinks> {
+        let result: Results<Drinks> = database.objects(Drinks.self)
+        return result
+    }
+    
+    func getFoods() -> Results<Foods> {
+        let result: Results<Foods> = database.objects(Foods.self)
+        return result
+    }
 }

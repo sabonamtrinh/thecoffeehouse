@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Products/Debug-iphonesimulator/SwiftyGif/SwiftyGif.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/namtrinh/Desktop/TheCoffeeHouse/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyGif.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -17,9 +17,9 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nga-6G-FrN">
-                        <rect key="frame" x="20" y="25" width="150" height="25"/>
+                        <rect key="frame" x="20" y="25" width="42" height="25"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="150" id="a03-Mu-ZwT"/>
+                            <constraint firstAttribute="width" priority="150" constant="250" id="a03-Mu-ZwT"/>
                             <constraint firstAttribute="height" constant="25" id="uZ1-N6-Kdq"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>

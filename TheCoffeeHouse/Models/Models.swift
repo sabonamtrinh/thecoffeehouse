@@ -9,6 +9,8 @@
 import Foundation
 import RealmSwift
 
+
+
 struct News{
     let image: String
     let title: String
@@ -45,6 +47,61 @@ class ProDucts : Object {
     @objc dynamic var imageName: String = ""
     @objc dynamic var name: String = ""
     @objc dynamic var price: String = ""
+    
+    override static func primaryKey() -> String? {
+        return "id"
+    }
+}
+
+class Drinks: Object {
+    @objc dynamic var id:Int = 0
+    @objc dynamic var imageName: String = ""
+    @objc dynamic var name: String = ""
+    @objc dynamic var price: String = ""
+    
+    override static func primaryKey() -> String? {
+        return "id"
+    }
+}
+
+class Foods: Object {
+    @objc dynamic var id:Int = 0
+    @objc dynamic var imageName: String = ""
+    @objc dynamic var name: String = ""
+    @objc dynamic var price: String = ""
+    
+    override static func primaryKey() -> String? {
+        return "id"
+    }
+}
+
+class NewsRealm: Object {
+    @objc dynamic var id:Int = 0
+    @objc dynamic var title:String = ""
+    @objc dynamic var content:String  = ""
+    @objc dynamic var imageName:String = ""
+    
+    override static func primaryKey() -> String? {
+        return "id"
+    }
+}
+
+class UpdateFormHome: Object {
+    @objc dynamic var id:Int = 0
+    @objc dynamic var title:String = ""
+    @objc dynamic var content:String  = ""
+    @objc dynamic var imageName:String = ""
+    
+    override static func primaryKey() -> String? {
+        return "id"
+    }
+}
+
+class CoffeLove: Object {
+    @objc dynamic var id:Int = 0
+    @objc dynamic var title:String = ""
+    @objc dynamic var content:String  = ""
+    @objc dynamic var imageName:String = ""
     
     override static func primaryKey() -> String? {
         return "id"

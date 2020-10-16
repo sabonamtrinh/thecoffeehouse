@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthProvider.m \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseAuth.build/module.modulemap \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FIRFacebookAuthProvider.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FIROAuthCredential.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FIRAuthCredential.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FIROAuthProvider.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FIRFederatedAuthProvider.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FIRAuthUIDelegate.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIROptions.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIRLoggerLevel.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIRConfiguration.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIRApp.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthGlobalWorkQueue.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuth_Internal.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FIRAuth.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FIRAuthErrors.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FIRAuthAPNSTokenType.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/Headers/Public/FirebaseAuthInterop/FIRAuthInterop.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthCredential_Internal.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthBackend.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCRequest.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCResponse.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRequestConfiguration.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthErrorUtils.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FIRMultiFactorInfo.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthInternalErrors.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthWebUtils.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthURLPresenter.h

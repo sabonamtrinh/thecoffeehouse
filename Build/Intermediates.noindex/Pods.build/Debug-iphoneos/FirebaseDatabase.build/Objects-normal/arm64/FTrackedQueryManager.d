@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQueryManager.m \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseDatabase.build/module.modulemap \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQueryManager.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Persistence/FCachePolicy.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/FClock.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FImmutableTree.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FImmutableSortedDictionary.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FPath.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTuplePathValue.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Persistence/FLevelDBStorageEngine.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FCompoundWrite.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FNode.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FTypedefs_Private.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Core/FQuerySpec.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/FIndex.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Persistence/FStorageEngine.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPruneForest.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQuery.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Utilities/FUtilities.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRLogger.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIROptions.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIRLoggerLevel.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIRConfiguration.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIRApp.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Utilities/FParsedUrl.h \
+  /Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoInfo.h

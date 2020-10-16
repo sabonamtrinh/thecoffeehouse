@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7F3022D5236896BD71E8F03A /* Pods_TheCoffeeHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69221754576C9652B9F69D9 /* Pods_TheCoffeeHouse.framework */; };
+		CE0BCE8B2533E19F006BE94C /* nowplay.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE0BCE8A2533E19F006BE94C /* nowplay.gif */; };
+		CE0BCE8D2534B72E006BE94C /* IOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BCE8C2534B72E006BE94C /* IOSDevCenters+GIF.swift */; };
 		CE1926A325186BDE00E18437 /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1926A125186BDE00E18437 /* ProductsCollectionViewCell.swift */; };
 		CE1926A425186BDE00E18437 /* ProductsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1926A225186BDE00E18437 /* ProductsCollectionViewCell.xib */; };
 		CE1B8B2C250FD2E300239BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B8B2B250FD2E300239BA8 /* AppDelegate.swift */; };
@@ -32,18 +34,33 @@
 		CE3559E72513E4F300F5B81D /* NewsHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3559E52513E4F300F5B81D /* NewsHeaderTableViewCell.xib */; };
 		CE3559EA25148A6700F5B81D /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3559E825148A6700F5B81D /* AccountTableViewCell.swift */; };
 		CE3559EB25148A6700F5B81D /* AccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3559E925148A6700F5B81D /* AccountTableViewCell.xib */; };
+		CE4F5901252C22B800DEE77C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F5900252C22B800DEE77C /* ProfileViewController.swift */; };
+		CE4F5906252CCD5A00DEE77C /* UpdateFormHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F5904252CCD5A00DEE77C /* UpdateFormHomeTableViewCell.swift */; };
+		CE4F5907252CCD5A00DEE77C /* UpdateFormHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4F5905252CCD5A00DEE77C /* UpdateFormHomeTableViewCell.xib */; };
+		CE4F590A252CCD6B00DEE77C /* CoffeeLoveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F5908252CCD6B00DEE77C /* CoffeeLoveTableViewCell.swift */; };
+		CE4F590B252CCD6B00DEE77C /* CoffeeLoveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4F5909252CCD6B00DEE77C /* CoffeeLoveTableViewCell.xib */; };
 		CE78DBD32525B9770010AE97 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78DBD22525B9770010AE97 /* DBManager.swift */; };
 		CE8DD7022510EDCF0071B66F /* SecondLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DD7012510EDCF0071B66F /* SecondLoginViewController.swift */; };
-		CEDBE7EF25198E670018F8B1 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDBE7EE25198E670018F8B1 /* MenuBar.swift */; };
+		CEC18B2525388A8400AB857E /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = CEC18B2425388A8400AB857E /* FacebookShare */; };
+		CEC18B2725388A8400AB857E /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = CEC18B2625388A8400AB857E /* FacebookCore */; };
+		CEC18B2925388A8400AB857E /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = CEC18B2825388A8400AB857E /* FacebookLogin */; };
+		CEC18B70253990CB00AB857E /* LoginEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC18B6F253990CB00AB857E /* LoginEmailViewController.swift */; };
+		CEC18B722539A04B00AB857E /* ForgotPassEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC18B712539A04B00AB857E /* ForgotPassEmailViewController.swift */; };
 		CEE8646125135271003A5B8E /* ItemsNewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8645F25135271003A5B8E /* ItemsNewsCollectionViewCell.swift */; };
 		CEE8646225135271003A5B8E /* ItemsNewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8646025135271003A5B8E /* ItemsNewsCollectionViewCell.xib */; };
 		CEE864702513868D003A5B8E /* HeaderInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8646E2513868D003A5B8E /* HeaderInfoTableViewCell.swift */; };
 		CEE864712513868D003A5B8E /* HeaderInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8646F2513868D003A5B8E /* HeaderInfoTableViewCell.xib */; };
+		CEFC5B9C252DAA2C00369CA5 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC5B9A252DAA2C00369CA5 /* MusicTableViewCell.swift */; };
+		CEFC5B9D252DAA2C00369CA5 /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFC5B9B252DAA2C00369CA5 /* MusicTableViewCell.xib */; };
+		CEFC5BA0252DAE7400369CA5 /* IntroduceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC5B9E252DAE7300369CA5 /* IntroduceTableViewCell.swift */; };
+		CEFC5BA1252DAE7400369CA5 /* IntroduceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFC5B9F252DAE7400369CA5 /* IntroduceTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		699BE6662A6BFB9DE928C02B /* Pods-TheCoffeeHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCoffeeHouse.debug.xcconfig"; path = "Target Support Files/Pods-TheCoffeeHouse/Pods-TheCoffeeHouse.debug.xcconfig"; sourceTree = "<group>"; };
 		6F6AD15C090CA089D1DE53B1 /* Pods-TheCoffeeHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCoffeeHouse.release.xcconfig"; path = "Target Support Files/Pods-TheCoffeeHouse/Pods-TheCoffeeHouse.release.xcconfig"; sourceTree = "<group>"; };
+		CE0BCE8A2533E19F006BE94C /* nowplay.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nowplay.gif; sourceTree = "<group>"; };
+		CE0BCE8C2534B72E006BE94C /* IOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 		CE1926A125186BDE00E18437 /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE1926A225186BDE00E18437 /* ProductsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCollectionViewCell.xib; sourceTree = "<group>"; };
 		CE1B8B28250FD2E200239BA8 /* TheCoffeeHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCoffeeHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,7 +74,7 @@
 		CE1B8B47250FD4D400239BA8 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		CE1B8B49250FD4E400239BA8 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		CE1B8B4B250FD4F700239BA8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		CE1B8B50250FD5CF00239BA8 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		CE1B8B50250FD5CF00239BA8 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountViewController.swift; path = "../New Group/AccountViewController.swift"; sourceTree = "<group>"; };
 		CE1B8B52250FD5E200239BA8 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		CE1B8B54250FD5F500239BA8 /* OderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderViewController.swift; sourceTree = "<group>"; };
 		CE1B8B56250FD60800239BA8 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
@@ -70,13 +87,23 @@
 		CE3559E52513E4F300F5B81D /* NewsHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsHeaderTableViewCell.xib; sourceTree = "<group>"; };
 		CE3559E825148A6700F5B81D /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
 		CE3559E925148A6700F5B81D /* AccountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountTableViewCell.xib; sourceTree = "<group>"; };
+		CE4F5900252C22B800DEE77C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CE4F5904252CCD5A00DEE77C /* UpdateFormHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateFormHomeTableViewCell.swift; sourceTree = "<group>"; };
+		CE4F5905252CCD5A00DEE77C /* UpdateFormHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateFormHomeTableViewCell.xib; sourceTree = "<group>"; };
+		CE4F5908252CCD6B00DEE77C /* CoffeeLoveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeLoveTableViewCell.swift; sourceTree = "<group>"; };
+		CE4F5909252CCD6B00DEE77C /* CoffeeLoveTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoffeeLoveTableViewCell.xib; sourceTree = "<group>"; };
 		CE78DBD22525B9770010AE97 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		CE8DD7012510EDCF0071B66F /* SecondLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLoginViewController.swift; sourceTree = "<group>"; };
-		CEDBE7EE25198E670018F8B1 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		CEC18B6F253990CB00AB857E /* LoginEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmailViewController.swift; sourceTree = "<group>"; };
+		CEC18B712539A04B00AB857E /* ForgotPassEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassEmailViewController.swift; sourceTree = "<group>"; };
 		CEE8645F25135271003A5B8E /* ItemsNewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsNewsCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEE8646025135271003A5B8E /* ItemsNewsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsNewsCollectionViewCell.xib; sourceTree = "<group>"; };
 		CEE8646E2513868D003A5B8E /* HeaderInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderInfoTableViewCell.swift; sourceTree = "<group>"; };
 		CEE8646F2513868D003A5B8E /* HeaderInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderInfoTableViewCell.xib; sourceTree = "<group>"; };
+		CEFC5B9A252DAA2C00369CA5 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		CEFC5B9B252DAA2C00369CA5 /* MusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
+		CEFC5B9E252DAE7300369CA5 /* IntroduceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceTableViewCell.swift; sourceTree = "<group>"; };
+		CEFC5B9F252DAE7400369CA5 /* IntroduceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroduceTableViewCell.xib; sourceTree = "<group>"; };
 		F69221754576C9652B9F69D9 /* Pods_TheCoffeeHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheCoffeeHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +112,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC18B2925388A8400AB857E /* FacebookLogin in Frameworks */,
+				CEC18B2525388A8400AB857E /* FacebookShare in Frameworks */,
+				CEC18B2725388A8400AB857E /* FacebookCore in Frameworks */,
 				7F3022D5236896BD71E8F03A /* Pods_TheCoffeeHouse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +170,7 @@
 				CE1B8B47250FD4D400239BA8 /* AuthManager.swift */,
 				CE1B8B49250FD4E400239BA8 /* Storage.swift */,
 				CE78DBD22525B9770010AE97 /* DBManager.swift */,
+				CE0BCE8C2534B72E006BE94C /* IOSDevCenters+GIF.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -147,6 +178,7 @@
 		CE1B8B40250FD33700239BA8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CE0BCE8A2533E19F006BE94C /* nowplay.gif */,
 				CE1B8B34250FD2E500239BA8 /* Assets.xcassets */,
 				CE1B8B4D250FD50C00239BA8 /* CollectionViewHeaders */,
 				CE1B8B44250FD39B00239BA8 /* Cell */,
@@ -204,10 +236,10 @@
 		CE1B8B4E250FD56900239BA8 /* CoreTabs */ = {
 			isa = PBXGroup;
 			children = (
+				CE4F58FF252C228B00DEE77C /* ACCOUNT */,
 				CE1B8B56250FD60800239BA8 /* NewsViewController.swift */,
 				CE1B8B54250FD5F500239BA8 /* OderViewController.swift */,
 				CE1B8B52250FD5E200239BA8 /* StoreViewController.swift */,
-				CE1B8B50250FD5CF00239BA8 /* AccountViewController.swift */,
 			);
 			path = CoreTabs;
 			sourceTree = "<group>";
@@ -234,6 +266,8 @@
 				CE1B8B5A250FD6C600239BA8 /* LoginViewController.swift */,
 				CE1B8B5C250FD72B00239BA8 /* RegisterViewController.swift */,
 				CE8DD7012510EDCF0071B66F /* SecondLoginViewController.swift */,
+				CEC18B6F253990CB00AB857E /* LoginEmailViewController.swift */,
+				CEC18B712539A04B00AB857E /* ForgotPassEmailViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -247,12 +281,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CE4F58FF252C228B00DEE77C /* ACCOUNT */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B8B50250FD5CF00239BA8 /* AccountViewController.swift */,
+				CE4F5900252C22B800DEE77C /* ProfileViewController.swift */,
+			);
+			path = ACCOUNT;
+			sourceTree = "<group>";
+		};
 		CEDBE7EB251982D50018F8B1 /* Oder */ = {
 			isa = PBXGroup;
 			children = (
 				CE1926A125186BDE00E18437 /* ProductsCollectionViewCell.swift */,
 				CE1926A225186BDE00E18437 /* ProductsCollectionViewCell.xib */,
-				CEDBE7EE25198E670018F8B1 /* MenuBar.swift */,
 			);
 			path = Oder;
 			sourceTree = "<group>";
@@ -264,6 +306,14 @@
 				CE3559E12513C85200F5B81D /* NewsTableViewCell.xib */,
 				CEE8645F25135271003A5B8E /* ItemsNewsCollectionViewCell.swift */,
 				CEE8646025135271003A5B8E /* ItemsNewsCollectionViewCell.xib */,
+				CE4F5904252CCD5A00DEE77C /* UpdateFormHomeTableViewCell.swift */,
+				CE4F5905252CCD5A00DEE77C /* UpdateFormHomeTableViewCell.xib */,
+				CE4F5908252CCD6B00DEE77C /* CoffeeLoveTableViewCell.swift */,
+				CE4F5909252CCD6B00DEE77C /* CoffeeLoveTableViewCell.xib */,
+				CEFC5B9A252DAA2C00369CA5 /* MusicTableViewCell.swift */,
+				CEFC5B9B252DAA2C00369CA5 /* MusicTableViewCell.xib */,
+				CEFC5B9E252DAE7300369CA5 /* IntroduceTableViewCell.swift */,
+				CEFC5B9F252DAE7400369CA5 /* IntroduceTableViewCell.xib */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -304,6 +354,11 @@
 			dependencies = (
 			);
 			name = TheCoffeeHouse;
+			packageProductDependencies = (
+				CEC18B2425388A8400AB857E /* FacebookShare */,
+				CEC18B2625388A8400AB857E /* FacebookCore */,
+				CEC18B2825388A8400AB857E /* FacebookLogin */,
+			);
 			productName = TheCoffeeHouse;
 			productReference = CE1B8B28250FD2E200239BA8 /* TheCoffeeHouse.app */;
 			productType = "com.apple.product-type.application";
@@ -332,6 +387,9 @@
 				Base,
 			);
 			mainGroup = CE1B8B1F250FD2E200239BA8;
+			packageReferences = (
+				CEC18B2325388A8400AB857E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = CE1B8B29250FD2E200239BA8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -350,12 +408,17 @@
 				CE3559EB25148A6700F5B81D /* AccountTableViewCell.xib in Resources */,
 				CE1926A425186BDE00E18437 /* ProductsCollectionViewCell.xib in Resources */,
 				CEE864712513868D003A5B8E /* HeaderInfoTableViewCell.xib in Resources */,
+				CE4F5907252CCD5A00DEE77C /* UpdateFormHomeTableViewCell.xib in Resources */,
+				CE4F590B252CCD6B00DEE77C /* CoffeeLoveTableViewCell.xib in Resources */,
 				CE1B8B38250FD2E500239BA8 /* LaunchScreen.storyboard in Resources */,
 				CE1B8B35250FD2E500239BA8 /* Assets.xcassets in Resources */,
 				CE1B8B33250FD2E300239BA8 /* Main.storyboard in Resources */,
 				CE3559E72513E4F300F5B81D /* NewsHeaderTableViewCell.xib in Resources */,
 				CE3559E32513C85200F5B81D /* NewsTableViewCell.xib in Resources */,
+				CE0BCE8B2533E19F006BE94C /* nowplay.gif in Resources */,
+				CEFC5BA1252DAE7400369CA5 /* IntroduceTableViewCell.xib in Resources */,
 				CE1B8B5F250FDBE000239BA8 /* GoogleService-Info.plist in Resources */,
+				CEFC5B9D252DAA2C00369CA5 /* MusicTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,25 +471,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4F5906252CCD5A00DEE77C /* UpdateFormHomeTableViewCell.swift in Sources */,
 				CEE864702513868D003A5B8E /* HeaderInfoTableViewCell.swift in Sources */,
+				CE0BCE8D2534B72E006BE94C /* IOSDevCenters+GIF.swift in Sources */,
 				CE1926A325186BDE00E18437 /* ProductsCollectionViewCell.swift in Sources */,
 				CE8DD7022510EDCF0071B66F /* SecondLoginViewController.swift in Sources */,
 				CE1B8B53250FD5E200239BA8 /* StoreViewController.swift in Sources */,
 				CE1B8B2C250FD2E300239BA8 /* AppDelegate.swift in Sources */,
 				CE1B8B55250FD5F500239BA8 /* OderViewController.swift in Sources */,
+				CE4F5901252C22B800DEE77C /* ProfileViewController.swift in Sources */,
 				CE1B8B5D250FD72B00239BA8 /* RegisterViewController.swift in Sources */,
 				CE3559E22513C85200F5B81D /* NewsTableViewCell.swift in Sources */,
+				CEFC5B9C252DAA2C00369CA5 /* MusicTableViewCell.swift in Sources */,
 				CEE8646125135271003A5B8E /* ItemsNewsCollectionViewCell.swift in Sources */,
+				CEC18B722539A04B00AB857E /* ForgotPassEmailViewController.swift in Sources */,
 				CE1B8B57250FD60800239BA8 /* NewsViewController.swift in Sources */,
 				CE1B8B2E250FD2E300239BA8 /* SceneDelegate.swift in Sources */,
 				CE1B8B51250FD5CF00239BA8 /* AccountViewController.swift in Sources */,
 				CE1B8B46250FD4C700239BA8 /* Extensions.swift in Sources */,
 				CE78DBD32525B9770010AE97 /* DBManager.swift in Sources */,
 				CE3559E62513E4F300F5B81D /* NewsHeaderTableViewCell.swift in Sources */,
-				CEDBE7EF25198E670018F8B1 /* MenuBar.swift in Sources */,
+				CE4F590A252CCD6B00DEE77C /* CoffeeLoveTableViewCell.swift in Sources */,
 				CE1B8B48250FD4D400239BA8 /* AuthManager.swift in Sources */,
+				CEFC5BA0252DAE7400369CA5 /* IntroduceTableViewCell.swift in Sources */,
 				CE1B8B4A250FD4E400239BA8 /* Storage.swift in Sources */,
 				CE3559EA25148A6700F5B81D /* AccountTableViewCell.swift in Sources */,
+				CEC18B70253990CB00AB857E /* LoginEmailViewController.swift in Sources */,
 				CE1B8B4C250FD4F700239BA8 /* Models.swift in Sources */,
 				CE1B8B5B250FD6C600239BA8 /* LoginViewController.swift in Sources */,
 			);
@@ -574,6 +644,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42BJ859V33;
 				INFOPLIST_FILE = TheCoffeeHouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -592,6 +663,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42BJ859V33;
 				INFOPLIST_FILE = TheCoffeeHouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -626,6 +698,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEC18B2325388A8400AB857E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEC18B2425388A8400AB857E /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEC18B2325388A8400AB857E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+		CEC18B2625388A8400AB857E /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEC18B2325388A8400AB857E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		CEC18B2825388A8400AB857E /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEC18B2325388A8400AB857E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE1B8B20250FD2E200239BA8 /* Project object */;
 }

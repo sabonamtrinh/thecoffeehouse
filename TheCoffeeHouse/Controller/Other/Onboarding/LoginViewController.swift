@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FBSDKLoginKit
 
 class LoginViewController: UIViewController {
     
@@ -17,7 +18,8 @@ class LoginViewController: UIViewController {
     private let headerView: UIView = {
         let header = UIView()
         header.clipsToBounds = true
-        let backgroundImageView = UIImageView(image: UIImage(named: "header"))
+        let backgroundImageView = UIImageView(image: UIImage(named: "pattern"))
+        backgroundImageView.contentMode = .scaleAspectFill
         header.addSubview(backgroundImageView)
         return header
     }()
@@ -108,10 +110,11 @@ class LoginViewController: UIViewController {
         return btn
     }()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
-       // navigationController?.delegate = self as! UINavigationControllerDelegate
+        self.navigationController?.isNavigationBarHidden = false
         addSubViews()
         phoneNumberTextField.addTarget(self,
                                        action: #selector(clicktextfield),
@@ -123,18 +126,30 @@ class LoginViewController: UIViewController {
                                 action: #selector(handelFaceBookButton),
                                 for: .touchUpInside)
         emailButton.addTarget(self,
-                                action: #selector(handelFaceBookButton),
+                                action: #selector(handelEmailButton),
                                 for: .touchUpInside)
         appleButton.addTarget(self,
                                 action: #selector(handelAppleButton),
                                 for: .touchUpInside)
+        otherButton.addTarget(self,
+                              action: #selector(handelOtherButton), for: .touchUpInside)
         phoneNumberTextField.delegate = self
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         headerView.frame = CGRect(x: 0,
-                                  y: view.top,
+                                  y: view.top + 50,
                                   width: view.width,
                                   height: view.height/4.0)
         welcome1Label.frame = CGRect(x: 25,
@@ -193,11 +208,12 @@ class LoginViewController: UIViewController {
         
     }
     @objc private func handelFaceBookButton(){
-        
+
     }
-    
+
     @objc private func handelEmailButton(){
-        
+        let vc = LoginEmailViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc private func handelAppleButton(){
@@ -208,13 +224,17 @@ class LoginViewController: UIViewController {
         
     }
     
+    @objc private func handelOtherButton(){
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     @objc private func clicktextfield(){
         let vc = SecondLoginViewController()
-        vc.modalPresentationStyle = .fullScreen
-        present(vc,animated: false)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
 extension LoginViewController: UITextFieldDelegate {
     
 }
+

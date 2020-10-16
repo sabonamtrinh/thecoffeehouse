@@ -66,7 +66,7 @@ class SecondLoginViewController: UIViewController {
     private let skipButton: UIButton = {
         let btn = UIButton()
         btn.setTitle("Bỏ qua", for: .normal)
-        btn.backgroundColor = .systemBackground
+        btn.backgroundColor = .systemGray5
         btn.layer.cornerRadius = Constants.cornerRadius
         btn.layer.masksToBounds = true
         btn.setTitleColor(.systemBlue, for: .normal)
@@ -91,12 +91,20 @@ class SecondLoginViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        countryButton.frame = CGRect(x: 25,
+        welcome1Label.frame = CGRect(x: 25,
                                      y: 100,
+                                     width: 250,
+                                     height: 40)
+        welcome2Label.frame = CGRect(x: 25,
+                                     y: welcome1Label.bottom + 10,
+                                     width: 250,
+                                     height: 20)
+        countryButton.frame = CGRect(x: 25,
+                                     y: welcome2Label.bottom + 20,
                                      width: 70,
                                      height: 52)
         phoneNumberTextField.frame = CGRect(x: countryButton.right + 20,
-                                     y: 100,
+                                     y: welcome2Label.bottom + 20,
                                      width: view.width - countryButton.width - 60,
                                      height: 52)
         continueButton.frame = CGRect(x: 25,
@@ -110,6 +118,8 @@ class SecondLoginViewController: UIViewController {
     }
     
     private func addSubViews(){
+        view.addSubview(welcome1Label)
+        view.addSubview(welcome2Label)
         view.addSubview(countryButton)
         view.addSubview(phoneNumberTextField)
         view.addSubview(continueButton)
@@ -124,6 +134,6 @@ class SecondLoginViewController: UIViewController {
     }
     
     @objc private func handelskipButton(){
-        
+        self.dismiss(animated: true, completion: nil)
     }
 }

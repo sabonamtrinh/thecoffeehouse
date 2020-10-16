@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "ca2a1b951532c9ec1651852cd6a2db4d"
+build_time: [1602831081, 91739000]
+inputs:
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/AccessToken.swift": [1602695019, 120908188]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/Permission.swift": [1602695019, 120604261]
+  "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/Settings.swift": [1602695019, 121205267]

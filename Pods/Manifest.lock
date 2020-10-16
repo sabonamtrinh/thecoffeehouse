@@ -1,5 +1,15 @@
 PODS:
   - Appirater (2.3.1)
+  - FacebookSDK (7.1.1):
+    - FacebookSDK/CoreKit (= 7.1.1)
+  - FacebookSDK/CoreKit (7.1.1):
+    - FBSDKCoreKit (~> 7.1.1)
+  - FBSDKCoreKit (7.1.1):
+    - FBSDKCoreKit/Basics (= 7.1.1)
+    - FBSDKCoreKit/Core (= 7.1.1)
+  - FBSDKCoreKit/Basics (7.1.1)
+  - FBSDKCoreKit/Core (7.1.1):
+    - FBSDKCoreKit/Basics
   - Firebase/Analytics (6.26.0):
     - Firebase/Core
   - Firebase/Auth (6.26.0):
@@ -114,9 +124,11 @@ PODS:
   - SDWebImage (5.9.0):
     - SDWebImage/Core (= 5.9.0)
   - SDWebImage/Core (5.9.0)
+  - SwiftyGif (5.3.0)
 
 DEPENDENCIES:
   - Appirater
+  - FacebookSDK
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Core
@@ -125,10 +137,13 @@ DEPENDENCIES:
   - Firebase/Storage
   - RealmSwift
   - SDWebImage
+  - SwiftyGif
 
 SPEC REPOS:
   trunk:
     - Appirater
+    - FacebookSDK
+    - FBSDKCoreKit
     - Firebase
     - FirebaseAnalytics
     - FirebaseAnalyticsInterop
@@ -152,9 +167,12 @@ SPEC REPOS:
     - Realm
     - RealmSwift
     - SDWebImage
+    - SwiftyGif
 
 SPEC CHECKSUMS:
   Appirater: 44a4651f7912a17dc906b655f0c215d5bb768b84
+  FacebookSDK: 77d80e61681768f1b17db5bfc8646a9aa89d658d
+  FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
   Firebase: 7cf5f9c67f03cb3b606d1d6535286e1080e57eb6
   FirebaseAnalytics: 96634d356482d4f3af8fe459a0ebf19a99c71b75
   FirebaseAnalyticsInterop: 3f86269c38ae41f47afeb43ebf32a001f58fcdae
@@ -178,7 +196,8 @@ SPEC CHECKSUMS:
   Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
   RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
   SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
+  SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
 
-PODFILE CHECKSUM: b780b194e7cfae361d882dd4b36e4ad4d02a8849
+PODFILE CHECKSUM: 8a4b68ef06d01285ee8bfef0d3de18d1ec97d87f
 
 COCOAPODS: 1.9.1

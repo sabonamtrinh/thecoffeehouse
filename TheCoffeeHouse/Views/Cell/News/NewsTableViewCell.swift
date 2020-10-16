@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class NewsTableViewCell: UITableViewCell {
     
@@ -15,6 +16,8 @@ class NewsTableViewCell: UITableViewCell {
     @IBOutlet weak var newsCollectionView: UICollectionView!
     
     var models = [Model]()
+    var dbManager: DBManager!
+    var dataList:Results<NewsRealm>!
     
     static func nib()-> UINib {
         return UINib(nibName: "NewsTableViewCell", bundle: nil)
@@ -27,6 +30,10 @@ class NewsTableViewCell: UITableViewCell {
         newsCollectionView.delegate = self
         newsCollectionView.dataSource = self
         newsCollectionView.register(ItemsNewsCollectionViewCell.nib(), forCellWithReuseIdentifier: ItemsNewsCollectionViewCell.indentififer)
+        
+        dbManager = DBManager.sharedInstance
+        dataList = dbManager.getNewsFormDB()
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -41,7 +48,7 @@ extension NewsTableViewCell: UICollectionViewDelegate, UICollectionViewDataSourc
         return 1
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6
+        return dataList.count
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 200, height: 300)
@@ -56,6 +63,10 @@ extension NewsTableViewCell: UICollectionViewDelegate, UICollectionViewDataSourc
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ItemsNewsCollectionViewCell.indentififer,
                                                       for: indexPath) as! ItemsNewsCollectionViewCell
+        let newCell = dataList[indexPath.row]
+        cell.titleLabel.text = newCell.title
+        cell.contentLabel.text = newCell.content
+        cell.imagenewsUIImageView.image = UIImage(named: newCell.imageName)
         cell.backgroundColor = .white
         cell.layer.borderColor = UIColor.systemGray5.cgColor
         cell.layer.cornerRadius = 8

@@ -18,41 +18,70 @@ class OderViewController: UIViewController {
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cv.translatesAutoresizingMaskIntoConstraints = false
         cv.showsVerticalScrollIndicator = false
-       // cv.scro
         return cv
     }()
     
-    let menuBar: MenuBar = {
-        let menu = MenuBar()
-        return menu
+    private let segmentedControl: UISegmentedControl = {
+        let control = UISegmentedControl(items: ["Phổ biến","Thức uống","Đồ ăn"])
+        control.selectedSegmentIndex = 0
+        control.backgroundColor = .systemBackground
+        control.layer.borderWidth = 0
+        control.layer.cornerRadius = 0
+        control.addTarget(self, action: #selector(handelSegmentChange), for: .valueChanged)
+        return control
     }()
+    
+    private let searchButton: UIButton = {
+        let btn = UIButton()
+        btn.setImage(UIImage(named:"icon_search"), for: .normal)
+        btn.contentMode = .scaleAspectFill
+        return btn
+    }()
+    
     var dbManager:DBManager!
     var dataList: Results<ProDucts>!
+    var drinkList: Results<Drinks>!
+    var foodList: Results<Foods>!
+    lazy var rowtoDisplay = dataList.count
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.isNavigationBarHidden = false
+        self.navigationController?.navigationBar.topItem?.title = "Oder"
         dbManager = DBManager.sharedInstance
         dataList = dbManager.getDataFormDB()
+        drinkList = dbManager.getDrinks()
+        foodList = dbManager.getFoods()
         setUp()
-        setUpMenuBar()
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
     }
-
-    private func setUpMenuBar(){
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
-        view.addSubview(menuBar)
-        menuBar.frame = CGRect(x: 0, y: view.top, width: view.width, height: 100)
-    }
     
+    @objc fileprivate func handelSegmentChange() {
+        switch segmentedControl.selectedSegmentIndex {
+        case 0:
+            rowtoDisplay = dataList.count
+        case 1:
+            rowtoDisplay = drinkList.count
+        case 2:
+            rowtoDisplay = foodList.count
+        default:
+            rowtoDisplay = dataList.count
+        }
+        collectionView.reloadData()
+    }
     private func setUp(){
         view.backgroundColor = .systemGray5
         view.addSubview(collectionView)
+        view.addSubview(segmentedControl)
+        view.addSubview(searchButton)
+        segmentedControl.frame = CGRect(x: 0, y: 80, width: view.width-40, height: 40)
+        searchButton.frame = CGRect(x: segmentedControl.width, y: 80, width: 40, height: 40)
         collectionView.backgroundColor = .systemGray5
-        collectionView.topAnchor.constraint(equalTo: view.topAnchor, constant: 130).isActive = true
+        collectionView.topAnchor.constraint(equalTo: view.topAnchor, constant: 150).isActive = true
         collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
         collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
         collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0).isActive = true
@@ -69,7 +98,7 @@ extension OderViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return dataList.count
+        return rowtoDisplay
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -81,10 +110,28 @@ extension OderViewController: UICollectionViewDataSource, UICollectionViewDelega
             return UICollectionViewCell()
         }
         cell.backgroundColor = .systemBackground
-        let pd = dataList[indexPath.row]
-        cell.imageView.image = UIImage(named: pd.imageName)
-        cell.titleLabel.text = pd.name
-        cell.priceLabel.text = pd.price
+        switch segmentedControl.selectedSegmentIndex {
+        case 0:
+            let pd = dataList[indexPath.row]
+            cell.imageView.image = UIImage(named: pd.imageName)
+            cell.titleLabel.text = pd.name
+            cell.priceLabel.text = pd.price
+        case 1:
+            let dr = drinkList[indexPath.row]
+            cell.imageView.image = UIImage(named: dr.imageName)
+            cell.titleLabel.text = dr.name
+            cell.priceLabel.text = dr.price
+        case 2:
+            let fd = foodList[indexPath.row]
+            cell.imageView.image = UIImage(named: fd.imageName)
+            cell.titleLabel.text = fd.name
+            cell.priceLabel.text = fd.price
+        default:
+            let pd = dataList[indexPath.row]
+            cell.imageView.image = UIImage(named: pd.imageName)
+            cell.titleLabel.text = pd.name
+            cell.priceLabel.text = pd.price
+        }
         cell.backgroundColor = .white
         cell.layer.borderColor = UIColor.systemGray5.cgColor
         cell.layer.cornerRadius = 8
