@@ -86,7 +86,11 @@ class SecondLoginViewController: UIViewController {
         skipButton.addTarget(self,
                              action: #selector(handelskipButton),
                              for: .touchUpInside)
-     //   self.navigationController.navigationBarHidden = false
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "arrow.left"), style: .plain, target: self, action: #selector(handelExitButton))
+    }
+    
+    @objc private func handelExitButton(){
+        navigationController?.popViewController(animated: true)
     }
     
     override func viewDidLayoutSubviews() {

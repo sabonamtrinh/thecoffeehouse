@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "ae4a214a698e545ae3e617a8a4e12f48"
-build_time: [1602830884, 867299000]
+build_time: [1602930442, 480176000]
 inputs:
   "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/SwiftyGif/SwiftyGif/SwiftyGifManager.swift": [1602426279, 218810347]
   "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/SwiftyGif/SwiftyGif/UIImage+SwiftyGif.swift": [1602426279, 209570778]

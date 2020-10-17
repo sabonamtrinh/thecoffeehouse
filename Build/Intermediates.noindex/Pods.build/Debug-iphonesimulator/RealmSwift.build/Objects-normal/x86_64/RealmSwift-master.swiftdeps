@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "b4563ae9fae3c4b69f53894ce0f2525f"
-build_time: [1602831129, 43927000]
+build_time: [1602930852, 789976000]
 inputs:
   "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/RealmSwift/RealmSwift/Aliases.swift": [1601141193, 804222318]
   "/Users/namtrinh/Desktop/TheCoffeeHouse/Pods/RealmSwift/RealmSwift/Error.swift": [1601141193, 805051593]

@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "ec6434f77e8e2977158b03b0ec1e4386"
-build_time: [1602831157, 233801000]
+build_time: [1602930903, 626274000]
 inputs:
   "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/Swift/Exports.swift": [1602769641, 973701287]
   "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKLoginKit/FBSDKLoginKit/Swift/FBLoginButton.swift": [1602769641, 974029984]

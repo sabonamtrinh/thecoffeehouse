@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "8d77f6e6d2d5fc18a1b8e8b1b5e61169"
-build_time: [1602830708, 753212000]
-inputs:
-  "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKShareKit/FBSDKShareKit/Swift/Enums+Extensions.swift": [1602769642, 14883368]
-  "/Users/namtrinh/Library/Developer/Xcode/DerivedData/TheCoffeeHouse-bcdzwfsxydrpxvbblldnegwywacz/SourcePackages/checkouts/facebook-ios-sdk/FBSDKShareKit/FBSDKShareKit/Swift/Exports.swift": [1602769642, 15143367]

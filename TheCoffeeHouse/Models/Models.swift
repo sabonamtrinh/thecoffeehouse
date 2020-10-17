@@ -34,6 +34,7 @@ struct Model {
 struct AccountViewType {
     let nameimage: String
     let text: String
+    let handel: (() -> Void)
 }
 
 struct Product {

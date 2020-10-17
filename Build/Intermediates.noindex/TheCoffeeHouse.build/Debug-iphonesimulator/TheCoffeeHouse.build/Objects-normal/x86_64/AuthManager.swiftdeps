@@ -7,20 +7,85 @@ provides-member:
 - ["14TheCoffeeHouse11AuthManagerC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "!="
+- !private "=="
+- !private "Auth"
 - "AuthManager"
 - "Bool"
+- "BooleanLiteralType"
+- !private "DatabaseManager"
 - "String"
 - "Void"
+- !private "print"
 depends-member:
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "createUser"]
+- !private ["So7FIRAuthC", "signIn"]
+- !private ["So7FIRAuthC", "signOut"]
+- !private ["14TheCoffeeHouse11AuthManagerC", "Auth"]
 - ["14TheCoffeeHouse11AuthManagerC", "AuthManager"]
 - ["14TheCoffeeHouse11AuthManagerC", "Bool"]
+- !private ["14TheCoffeeHouse11AuthManagerC", "DatabaseManager"]
 - ["14TheCoffeeHouse11AuthManagerC", "String"]
 - ["14TheCoffeeHouse11AuthManagerC", "Void"]
 - ["14TheCoffeeHouse11AuthManagerC", "init"]
-- ["14TheCoffeeHouse11AuthManagerC", "registerNewUser"]
-- ["14TheCoffeeHouse11AuthManagerC", "share"]
+- ["14TheCoffeeHouse11AuthManagerC", "logOut"]
+- ["14TheCoffeeHouse11AuthManagerC", "loginUser"]
+- !private ["14TheCoffeeHouse11AuthManagerC", "print"]
+- ["14TheCoffeeHouse11AuthManagerC", "registerNewuser"]
+- ["14TheCoffeeHouse11AuthManagerC", "shared"]
+- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "createUser"]
+- !private ["s7CVarArgP", "signIn"]
+- !private ["s7CVarArgP", "signOut"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "createUser"]
+- !private ["s28CustomDebugStringConvertibleP", "signIn"]
+- !private ["s28CustomDebugStringConvertibleP", "signOut"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "createUser"]
+- !private ["s23CustomStringConvertibleP", "signIn"]
+- !private ["s23CustomStringConvertibleP", "signOut"]
+- !private ["14TheCoffeeHouse15DatabaseManagerC", "canCreateNewUser"]
+- !private ["14TheCoffeeHouse15DatabaseManagerC", "insertNewUser"]
+- !private ["14TheCoffeeHouse15DatabaseManagerC", "shared"]
+- !private ["SQ", "auth"]
+- !private ["SQ", "createUser"]
+- !private ["SQ", "signIn"]
+- !private ["SQ", "signOut"]
+- !private ["SH", "auth"]
+- !private ["SH", "createUser"]
+- !private ["SH", "signIn"]
+- !private ["SH", "signOut"]
+- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "createUser"]
+- !private ["So8NSObjectC", "signIn"]
+- !private ["So8NSObjectC", "signOut"]
+- !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "createUser"]
+- !private ["So8NSObjectP", "signIn"]
+- !private ["So8NSObjectP", "signOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "auth"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createUser"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signIn"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signOut"]
 depends-nominal:
+- !private "So7FIRAuthC"
 - "14TheCoffeeHouse11AuthManagerC"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "14TheCoffeeHouse15DatabaseManagerC"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
@@ -251,4 +316,4 @@ depends-external:
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c0b41d6d75c6359824ca2a34b094dd6b"
+interface-hash: "fd52c3f8e87d705f0fc6be2999ac6867"

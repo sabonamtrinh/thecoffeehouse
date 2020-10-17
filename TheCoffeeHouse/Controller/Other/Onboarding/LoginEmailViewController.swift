@@ -28,6 +28,15 @@ class LoginEmailViewController: UIViewController {
         return label
     }()
     
+    private let errorLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont(name: "Helvetica Neue", size: 10.0)
+        label.textColor = .systemRed
+        label.numberOfLines = 1
+        label.text = " "
+        return label
+    }()
+    
     private let emailTextField: UITextField = {
         let field = UITextField()
         field.placeholder = "Email..."
@@ -79,9 +88,50 @@ class LoginEmailViewController: UIViewController {
         view.addSubview(passwordTextField)
         view.addSubview(otherButton)
         view.addSubview(continueButton)
+        view.addSubview(errorLabel)
         otherButton.addTarget(self,
                               action: #selector(handelForgotPassButton),
                               for: .touchUpInside)
+        continueButton.addTarget(self, action: #selector(handelContinueButton), for: .touchUpInside)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "arrow.left"),
+                                                           style: .plain,
+                                                           target: self,
+                                                           action: #selector(handelExitButton))
+        
+    }
+    @objc private func handelExitButton(){
+        navigationController?.popViewController(animated: true)
+    }
+    
+    @objc private func handelContinueButton(){
+        emailTextField.resignFirstResponder()
+        passwordTextField.resignFirstResponder()
+        guard let usernameEmail = emailTextField.text, !usernameEmail.isEmpty,
+            let password = passwordTextField.text, !password.isEmpty, password.count >= 8 else {
+                return
+        }
+        
+        var username: String?
+        var email: String?
+        
+        if usernameEmail.contains("@"), usernameEmail.contains(".") {
+            email = usernameEmail
+        }
+        else {
+            username = usernameEmail
+        }
+        
+        AuthManager.shared.loginUser(username: username, email: email, password: password) { success in
+            DispatchQueue.main.async {
+                if success {
+                    print("Logged")
+                    self.dismiss(animated: true, completion: nil)
+                }
+                else {
+                    self.errorLabel.text = "Vui lòng nhập đúng địa chỉ Email."
+                }
+            }
+        }
     }
     
     override func viewDidLayoutSubviews() {
@@ -98,8 +148,11 @@ class LoginEmailViewController: UIViewController {
                                      y: welcome2Label.bottom + 20,
                                      width: view.width - 60,
                                      height: 52)
+        errorLabel.frame = CGRect(x: 25,
+                                  y: emailTextField.bottom + 5,
+                                  width: view.width - 40, height: 20)
         passwordTextField.frame = CGRect(x: 25,
-                                     y: emailTextField.bottom + 20,
+                                     y: errorLabel.bottom + 5,
                                      width: view.width - 60,
                                      height: 52)
         otherButton.frame = CGRect(x: 25,

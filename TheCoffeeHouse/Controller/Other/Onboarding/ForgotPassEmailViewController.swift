@@ -47,8 +47,13 @@ class ForgotPassEmailViewController: UIViewController {
         view.addSubview(welcome2Label)
         view.addSubview(emailTextField)
         view.addSubview(continueButton)
+        emailTextField.resignFirstResponder()
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "multiply"), style: .plain, target: self, action: #selector(handelExitButton))
     }
     
+    @objc private func handelExitButton(){
+        navigationController?.popViewController(animated: true)
+    }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()

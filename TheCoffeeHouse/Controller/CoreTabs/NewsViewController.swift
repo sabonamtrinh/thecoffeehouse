@@ -8,6 +8,7 @@
 
 import UIKit
 import RealmSwift
+import Firebase
 
 enum Height {
     static let heightRow:CGFloat = 330
@@ -49,7 +50,7 @@ class NewsViewController: UIViewController {
     }
     
     private func handelNotAuthenticated() {
-        if true {
+        if Auth.auth().currentUser == nil {
             // Show login
             let loginVC = LoginViewController()
             let vc = UINavigationController(rootViewController: loginVC)

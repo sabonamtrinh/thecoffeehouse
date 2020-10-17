@@ -3,6 +3,7 @@ provides-top-level:
 provides-nominal:
 provides-member:
 - ["So6UIViewC", ""]
+- ["SS", ""]
 - ["So6UIViewC", "width"]
 - ["So6UIViewC", "height"]
 - ["So6UIViewC", "top"]
@@ -12,6 +13,7 @@ provides-member:
 - ["So6UIViewC", "addConstraintsWithFormat"]
 - ["So6UIViewC", "startRotating"]
 - ["So6UIViewC", "stopRotating"]
+- ["SS", "safeDatabaseKey"]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "!="
@@ -41,6 +43,7 @@ depends-member:
 - !private ["s18AdditiveArithmeticP", "pi"]
 - !private ["Sa", "enumerated"]
 - !private ["SK", "enumerated"]
+- !private ["SK", "replacingOccurrences"]
 - !private ["SB", "infinity"]
 - !private ["SB", "pi"]
 - !private ["So8CAActionP", "duration"]
@@ -116,13 +119,16 @@ depends-member:
 - !private ["s7CVarArgP", "pi"]
 - !private ["s7CVarArgP", "removeAnimation"]
 - !private ["s7CVarArgP", "repeatCount"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "toValue"]
 - !private ["Sl", "enumerated"]
 - !private ["Sl", "init"]
+- !private ["Sl", "replacingOccurrences"]
 - !private ["Sl", "subscript"]
 - !private ["SL", "infinity"]
 - !private ["SL", "pi"]
+- !private ["SL", "replacingOccurrences"]
 - !private ["10Foundation15ContiguousBytesP", "enumerated"]
 - !private ["s28CustomDebugStringConvertibleP", "CABasicAnimation"]
 - !private ["s28CustomDebugStringConvertibleP", "Float"]
@@ -148,6 +154,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "pi"]
 - !private ["s28CustomDebugStringConvertibleP", "removeAnimation"]
 - !private ["s28CustomDebugStringConvertibleP", "repeatCount"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
 - !private ["s28CustomDebugStringConvertibleP", "size"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "toValue"]
@@ -161,6 +168,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "origin"]
 - !private ["s17CustomReflectableP", "pi"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
 - !private ["s17CustomReflectableP", "size"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "width"]
@@ -190,6 +198,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "pi"]
 - !private ["s23CustomStringConvertibleP", "removeAnimation"]
 - !private ["s23CustomStringConvertibleP", "repeatCount"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "toValue"]
 - !private ["10Foundation12DataProtocolP", "enumerated"]
@@ -199,6 +208,7 @@ depends-member:
 - !private ["Se", "init"]
 - !private ["Se", "origin"]
 - !private ["Se", "pi"]
+- !private ["Se", "replacingOccurrences"]
 - !private ["Se", "size"]
 - !private ["Se", "subscript"]
 - !private ["Se", "width"]
@@ -215,6 +225,7 @@ depends-member:
 - !private ["SE", "init"]
 - !private ["SE", "origin"]
 - !private ["SE", "pi"]
+- !private ["SE", "replacingOccurrences"]
 - !private ["SE", "size"]
 - !private ["SE", "subscript"]
 - !private ["SE", "width"]
@@ -244,6 +255,7 @@ depends-member:
 - !private ["SQ", "pi"]
 - !private ["SQ", "removeAnimation"]
 - !private ["SQ", "repeatCount"]
+- !private ["SQ", "replacingOccurrences"]
 - !private ["SQ", "size"]
 - !private ["SQ", "subscript"]
 - !private ["SQ", "toValue"]
@@ -255,12 +267,16 @@ depends-member:
 - !private ["s27ExpressibleByBooleanLiteralP", "init"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "init"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
 - !private ["s25ExpressibleByFloatLiteralP", "infinity"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "pi"]
 - !private ["s27ExpressibleByIntegerLiteralP", "infinity"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s32ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
 - !private ["Sf", "infinity"]
 - !private ["SF", "infinity"]
 - !private ["SF", "pi"]
@@ -287,13 +303,16 @@ depends-member:
 - !private ["SH", "pi"]
 - !private ["SH", "removeAnimation"]
 - !private ["SH", "repeatCount"]
+- !private ["SH", "replacingOccurrences"]
 - !private ["SH", "subscript"]
 - !private ["SH", "toValue"]
 - !private ["s25LosslessStringConvertibleP", "infinity"]
 - !private ["s25LosslessStringConvertibleP", "pi"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
 - !private ["10RealmSwift10MinMaxTypeP", "infinity"]
 - !private ["10RealmSwift10MinMaxTypeP", "init"]
 - !private ["10RealmSwift10MinMaxTypeP", "pi"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
 - !private ["SM", "enumerated"]
 - !private ["10Foundation19MutableDataProtocolP", "enumerated"]
 - !private ["So8NSCodingP", "CABasicAnimation"]
@@ -313,15 +332,20 @@ depends-member:
 - !private ["So8NSCodingP", "layer"]
 - !private ["So8NSCodingP", "removeAnimation"]
 - !private ["So8NSCodingP", "repeatCount"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
 - !private ["So8NSCodingP", "toValue"]
 - !private ["So9NSCopyingP", "duration"]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "isCumulative"]
 - !private ["So9NSCopyingP", "isRemovedOnCompletion"]
 - !private ["So9NSCopyingP", "repeatCount"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
 - !private ["So9NSCopyingP", "toValue"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
 - !private ["So18NSLayoutConstraintC", "FormatOptions"]
 - !private ["So18NSLayoutConstraintC", "constraints"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
 - !private ["So8NSNumberC", "init"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "CABasicAnimation"]
@@ -349,6 +373,7 @@ depends-member:
 - ["So8NSObjectC", "left"]
 - !private ["So8NSObjectC", "removeAnimation"]
 - !private ["So8NSObjectC", "repeatCount"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
 - ["So8NSObjectC", "right"]
 - ["So8NSObjectC", "startRotating"]
 - ["So8NSObjectC", "stopRotating"]
@@ -374,6 +399,7 @@ depends-member:
 - !private ["So8NSObjectP", "layer"]
 - !private ["So8NSObjectP", "removeAnimation"]
 - !private ["So8NSObjectP", "repeatCount"]
+- !private ["So8NSObjectP", "replacingOccurrences"]
 - !private ["So8NSObjectP", "toValue"]
 - !private ["So14NSSecureCodingP", "add"]
 - !private ["So14NSSecureCodingP", "animation"]
@@ -383,7 +409,9 @@ depends-member:
 - !private ["So14NSSecureCodingP", "isRemovedOnCompletion"]
 - !private ["So14NSSecureCodingP", "removeAnimation"]
 - !private ["So14NSSecureCodingP", "repeatCount"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
 - !private ["So14NSSecureCodingP", "toValue"]
+- !private ["So8NSStringC", "replacingOccurrences"]
 - !private ["So7NSValueC", "init"]
 - !private ["Sj", "infinity"]
 - !private ["Sj", "pi"]
@@ -394,27 +422,36 @@ depends-member:
 - !private ["So6RLMIntP", "init"]
 - !private ["Sk", "enumerated"]
 - !private ["Sm", "enumerated"]
+- !private ["Sm", "replacingOccurrences"]
 - !private ["SY", "init"]
 - !private ["10RealmSwift0A15CollectionValueP", "infinity"]
 - !private ["10RealmSwift0A15CollectionValueP", "pi"]
+- !private ["10RealmSwift0A15CollectionValueP", "replacingOccurrences"]
 - !private ["10RealmSwift0A12OptionalTypeP", "infinity"]
 - !private ["10RealmSwift0A12OptionalTypeP", "pi"]
 - !private ["s10SIMDScalarP", "infinity"]
 - !private ["s10SIMDScalarP", "pi"]
 - !private ["ST", "enumerated"]
 - !private ["ST", "init"]
+- !private ["ST", "replacingOccurrences"]
 - !private ["ST", "subscript"]
 - !private ["s10SetAlgebraP", "init"]
 - !private ["s13SignedNumericP", "infinity"]
 - !private ["s13SignedNumericP", "pi"]
 - !private ["Sx", "infinity"]
 - !private ["Sx", "pi"]
+- ["SS", "String"]
+- !private ["SS", "replacingOccurrences"]
+- ["SS", "safeDatabaseKey"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "replacingOccurrences"]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
 - !private ["s20TextOutputStreamableP", "infinity"]
 - !private ["s20TextOutputStreamableP", "pi"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
 - !private ["So29UIAccessibilityIdentificationP", "CABasicAnimation"]
 - !private ["So29UIAccessibilityIdentificationP", "Float"]
 - !private ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
@@ -583,20 +620,26 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "infinity"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "pi"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "replacingOccurrences"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "size"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "width"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "x"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "y"]
 - !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "infinity"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "infinity"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
 - !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "replacingOccurrences"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "infinity"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "pi"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CABasicAnimation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
@@ -617,6 +660,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAnimation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "repeatCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "toValue"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CABasicAnimation"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Float"]
@@ -637,15 +681,18 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeAnimation"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "repeatCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "replacingOccurrences"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "toValue"]
 - !private ["10RealmSwift20_ManagedPropertyTypeP", "infinity"]
 - !private ["10RealmSwift20_ManagedPropertyTypeP", "pi"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "replacingOccurrences"]
 - !private ["s21_ObjectiveCBridgeableP", "enumerated"]
 - !private ["s21_ObjectiveCBridgeableP", "height"]
 - !private ["s21_ObjectiveCBridgeableP", "infinity"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "origin"]
 - !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
 - !private ["s21_ObjectiveCBridgeableP", "size"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "width"]
@@ -694,23 +741,32 @@ depends-nominal:
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "Sf"
 - !private "SF"
 - !private "So21NSLayoutFormatOptionsV"
 - !private "SH"
 - !private "s25LosslessStringConvertibleP"
 - !private "10RealmSwift10MinMaxTypeP"
+- !private "s10MirrorPathP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - !private "So18NSLayoutConstraintC"
+- !private "So16NSMutableCopyingP"
 - !private "So8NSNumberC"
 - "So8NSObjectC"
 - !private "So8NSObjectP"
 - !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
 - !private "So7NSValueC"
 - !private "Sj"
 - !private "s9OptionSetP"
@@ -728,7 +784,9 @@ depends-nominal:
 - !private "s10SetAlgebraP"
 - !private "s13SignedNumericP"
 - !private "Sx"
+- "SS"
 - !private "s27StringInterpolationProtocolP"
+- !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
@@ -751,8 +809,11 @@ depends-nominal:
 - !private "s22_CVarArgPassedAsDoubleP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
@@ -990,4 +1051,4 @@ depends-external:
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "ec00b3f5c8dd9d193b577bd8d6b81f02"
+interface-hash: "57cab48ccbafd5a4bf4fc01cbd5654f1"

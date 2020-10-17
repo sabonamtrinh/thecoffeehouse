@@ -58,8 +58,11 @@ depends-top-level:
 - "String"
 - "StringLiteralType"
 - "UpdateFormHome"
+- "Void"
 depends-member:
 - ["14TheCoffeeHouse15AccountViewTypeV", "String"]
+- ["14TheCoffeeHouse15AccountViewTypeV", "Void"]
+- ["14TheCoffeeHouse15AccountViewTypeV", "handel"]
 - ["14TheCoffeeHouse15AccountViewTypeV", "init"]
 - ["14TheCoffeeHouse15AccountViewTypeV", "nameimage"]
 - ["14TheCoffeeHouse15AccountViewTypeV", "text"]
@@ -445,4 +448,4 @@ depends-external:
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/namtrinh/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e951f620695e30dbf8f6af47d4720b98"
+interface-hash: "b087ce8ecb8f7ff64f6f49eb8222e75f"
